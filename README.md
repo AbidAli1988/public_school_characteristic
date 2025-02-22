@@ -23,9 +23,9 @@ For more visualization experience, I used Power BI to create dynamic dashboards 
 
 # Data Questions:
 
-•	Calculate the average student to teacher ratio for each state and compare them using a horizontal bar chart.
-•	Examine the difference in student to teacher ratios between urban (ULOCALE) and rural schools. 
-•	How many percent of students are enrolled in free or reduced lunch program by school level.
+- Calculate the **average student-to-teacher ratio** for each state and compare them using a **horizontal bar chart**.
+- Examine the difference in **student-to-teacher ratios** between **urban (ULOCALE)** and **rural schools**.
+- Calculate the percentage of students enrolled in the **free or reduced lunch program** by **school level**.
 
 
 # Problems/Hurdles Encountered:
