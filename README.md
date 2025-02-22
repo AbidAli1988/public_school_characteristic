@@ -3,7 +3,7 @@
 - [Motivation](#motivation)
 - [Technologies Used](#technologies-used)
 - [Data Questions](#data-questions)
-- [Problems/Hurdles Encountered](#problemshurdles-encountered)
+- [Problems/Hurdles](#problemshurdles)
 - [Usage](#usage)
 
 This dataset contains detailed records of public school characteristics, including student-to-teacher ratios, school types, enrollment numbers, funding details, and additional educational factors. It focuses on data from public schools across various states and counties in the United States, providing insights into school performance, resource allocation, and demographic distributions.
@@ -30,7 +30,7 @@ For more visualization experience, I used Power BI to create dynamic dashboards 
 
 
 
-# Problems/Hurdles Encountered:
+# Problems/Hurdles 
 
 While working with the Public School Characteristics dataset, I faced a few challenges during data cleaning and preparation. One big issue was the missing values in many important columns. I had to find ways to deal with these missing values to make sure the data was complete and accurate. There were also negative values in some columns, like student-to-teacher ratios, enrollment numbers, which didn’t make sense. I had to fix or remove these to get the right data.
 
