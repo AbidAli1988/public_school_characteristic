@@ -29,6 +29,11 @@ For more visualization experience, I used Power BI to create dynamic dashboards 
 - Calculate the percentage of students enrolled in the **free or reduced lunch program** by **school level**.
 
 
+# Analysis
+
+![](png/locationsvisual.png)
+
+
 # Problems/Hurdles Encountered:
 
 While working with the Public School Characteristics dataset, I faced a few challenges during data cleaning and preparation. One big issue was the missing values in many important columns. I had to find ways to deal with these missing values to make sure the data was complete and accurate. There were also negative values in some columns, like student-to-teacher ratios, enrollment numbers, which didn’t make sense. I had to fix or remove these to get the right data.
