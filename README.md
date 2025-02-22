@@ -13,3 +13,8 @@ In the end, this project aims to provide valuable information to policymakers, s
 To analyze the Public School Characteristics dataset, I used a combination of powerful tools to explore, clean, and visualize the data. I began by using Python in Jupyter Notebook for data analysis. Python’s libraries like Pandas, NumPy, and Matplotlib, and Polty  allowed me to clean and transform the dataset, calculate key metrics, and visualize trends effectively. 
 
 For more visualization experience, I used Power BI to create dynamic dashboards that showcase insights from the data in an engaging way. This visualization allows me for better understanding and easier exploration of the dataset by providing interactive charts and graphs that help users identify significant patterns and trends across different school types, regions, and demographic factors.
+
+#Problems/Hurdles Encountered:
+While working with the Public School Characteristics dataset, I faced a few challenges during data cleaning and preparation. One big issue was the missing values in many important columns. I had to find ways to deal with these missing values to make sure the data was complete and accurate. There were also negative values in some columns, like student-to-teacher ratios, enrollment numbers, which didn’t make sense. I had to fix or remove these to get the right data.
+
+Another problem was the inconsistent formats in the data. Some columns had different ways of showing the same information, which made it hard to compare and analyze the data correctly. I had to clean and standardize the data to make sure everything was in the same format.
