@@ -29,10 +29,6 @@ For more visualization experience, I used Power BI to create dynamic dashboards 
 - Calculate the percentage of students enrolled in the **free or reduced lunch program** by **school level**.
 
 
-# Analysis
-
-![](png/locationsvisual.png)
-
 
 # Problems/Hurdles Encountered:
 
