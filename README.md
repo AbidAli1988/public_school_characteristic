@@ -19,3 +19,14 @@ For more visualization experience, I used Power BI to create dynamic dashboards 
 While working with the Public School Characteristics dataset, I faced a few challenges during data cleaning and preparation. One big issue was the missing values in many important columns. I had to find ways to deal with these missing values to make sure the data was complete and accurate. There were also negative values in some columns, like student-to-teacher ratios, enrollment numbers, which didn’t make sense. I had to fix or remove these to get the right data.
 
 Another problem was the inconsistent formats in the data. Some columns had different ways of showing the same information, which made it hard to compare and analyze the data correctly. I had to clean and standardize the data to make sure everything was in the same format.
+
+### Usage
+
+This dataset can be used for:
+
+- **Education equity analysis**: Comparing the quality of education across different regions and school types.
+- **School performance research**: Analyzing the relationship between student-teacher ratios, funding, and academic outcomes.
+- **Demographic analysis**: Studying the diversity and enrollment patterns of students in public schools.
+- **Policy-making**: Informing decisions on resource allocation and strategies for improving public education.
+- **Trend analysis**: Investigating the impact of school characteristics on student success over time.
+
