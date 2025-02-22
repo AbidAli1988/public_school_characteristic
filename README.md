@@ -1,1 +1,1 @@
-# public_school_characteristic
+This dataset contains detailed records of public school characteristics, including student-to-teacher ratios, school types, enrollment numbers, funding details, and additional educational factors. It focuses on data from public schools across various states and counties in the United States, providing insights into school performance, resource allocation, and demographic distributions.
