@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2e71a16e0e2d9865560aa2cad7d021ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2e71a16e0e2d9865560aa2cad7d021ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2e71a16e0e2d9865560aa2cad7d021ba = L.map(
+                "map_2e71a16e0e2d9865560aa2cad7d021ba",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6eca12fb379d02d9533d094b2ff455a1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6eca12fb379d02d9533d094b2ff455a1.addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+            var circle_marker_15cce112e1e9e4b2f3723784cdc4a172 = L.circleMarker(
+                [40.25023439276018, -111.91338430135747],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_b16a2360ddacf4056c1a48ebe4dd2934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7bbd080a249d2534c2f896327725f35 = $(`<div id="html_d7bbd080a249d2534c2f896327725f35" style="width: 100.0%; height: 100.0%;">UT: 22.23 student-teacher ratio</div>`)[0];
+                popup_b16a2360ddacf4056c1a48ebe4dd2934.setContent(html_d7bbd080a249d2534c2f896327725f35);
+            
+        
+
+        circle_marker_15cce112e1e9e4b2f3723784cdc4a172.bindPopup(popup_b16a2360ddacf4056c1a48ebe4dd2934)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd596a94872ce8a914f31fd477e4bec = L.circleMarker(
+                [44.132187343672456, -114.94007229156327],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_d11013a5c9e4933442a08ba8fd0c5aec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a7386c76b6a9c93988e9fd53fcde397 = $(`<div id="html_4a7386c76b6a9c93988e9fd53fcde397" style="width: 100.0%; height: 100.0%;">ID: 21.91 student-teacher ratio</div>`)[0];
+                popup_d11013a5c9e4933442a08ba8fd0c5aec.setContent(html_4a7386c76b6a9c93988e9fd53fcde397);
+            
+        
+
+        circle_marker_6bd596a94872ce8a914f31fd477e4bec.bindPopup(popup_d11013a5c9e4933442a08ba8fd0c5aec)
+        ;
+
+        
+    
+    
+            var circle_marker_a46eff481f66af8be4e1f966d0c42fda = L.circleMarker(
+                [15.064728514285713, 145.67871231428572],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_ee38494811dee5e9e6ae5c3ebdf110b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13baab73cbe7839391bc5c30d3b31cb6 = $(`<div id="html_13baab73cbe7839391bc5c30d3b31cb6" style="width: 100.0%; height: 100.0%;">MP: 20.65 student-teacher ratio</div>`)[0];
+                popup_ee38494811dee5e9e6ae5c3ebdf110b6.setContent(html_13baab73cbe7839391bc5c30d3b31cb6);
+            
+        
+
+        circle_marker_a46eff481f66af8be4e1f966d0c42fda.bindPopup(popup_ee38494811dee5e9e6ae5c3ebdf110b6)
+        ;
+
+        
+    
+    
+            var circle_marker_744f7e6356bf3c89936be60d300c15b7 = L.circleMarker(
+                [35.82739826702734, -119.58964160110135],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_c47c145e70d0d8ceaa5b73042387a261 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37f49d993a9e28240bba1eb908133550 = $(`<div id="html_37f49d993a9e28240bba1eb908133550" style="width: 100.0%; height: 100.0%;">CA: 20.45 student-teacher ratio</div>`)[0];
+                popup_c47c145e70d0d8ceaa5b73042387a261.setContent(html_37f49d993a9e28240bba1eb908133550);
+            
+        
+
+        circle_marker_744f7e6356bf3c89936be60d300c15b7.bindPopup(popup_c47c145e70d0d8ceaa5b73042387a261)
+        ;
+
+        
+    
+    
+            var circle_marker_e34454c0252ab43020dbdcc02c41cbdb = L.circleMarker(
+                [61.248866639442234, -150.62736547211153],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_191bea6dbb578fc16fd0dfe67dadfc67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e2d1d4149add6bb8f75b536842fb15a = $(`<div id="html_1e2d1d4149add6bb8f75b536842fb15a" style="width: 100.0%; height: 100.0%;">AK: 20.00 student-teacher ratio</div>`)[0];
+                popup_191bea6dbb578fc16fd0dfe67dadfc67.setContent(html_1e2d1d4149add6bb8f75b536842fb15a);
+            
+        
+
+        circle_marker_e34454c0252ab43020dbdcc02c41cbdb.bindPopup(popup_191bea6dbb578fc16fd0dfe67dadfc67)
+        ;
+
+        
+    
+    
+            var circle_marker_e8f85b236596a33c3dfce721799fc1fc = L.circleMarker(
+                [37.50703161227154, -116.4356896984334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_03c924396e55c5b6cb0430b78f496196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dca5036cecc479608a1eeb6a46793254 = $(`<div id="html_dca5036cecc479608a1eeb6a46793254" style="width: 100.0%; height: 100.0%;">NV: 19.31 student-teacher ratio</div>`)[0];
+                popup_03c924396e55c5b6cb0430b78f496196.setContent(html_dca5036cecc479608a1eeb6a46793254);
+            
+        
+
+        circle_marker_e8f85b236596a33c3dfce721799fc1fc.bindPopup(popup_03c924396e55c5b6cb0430b78f496196)
+        ;
+
+        
+    
+    
+            var circle_marker_51fe91c900e97986f7dde7c4678be5a4 = L.circleMarker(
+                [30.790219883755586, -91.64000035767512],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_d7b93c4cb62088f6ca2aa9d70c06a7ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00a97735c2779b416f2d8b69702eec48 = $(`<div id="html_00a97735c2779b416f2d8b69702eec48" style="width: 100.0%; height: 100.0%;">LA: 18.75 student-teacher ratio</div>`)[0];
+                popup_d7b93c4cb62088f6ca2aa9d70c06a7ce.setContent(html_00a97735c2779b416f2d8b69702eec48);
+            
+        
+
+        circle_marker_51fe91c900e97986f7dde7c4678be5a4.bindPopup(popup_d7b93c4cb62088f6ca2aa9d70c06a7ce)
+        ;
+
+        
+    
+    
+            var circle_marker_9035831bd244ce7b13370362944eff8b = L.circleMarker(
+                [44.61920909704969, -122.3160952507764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_508cf8d9ca442bad7422386628c3ac90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0094308cd365b98009b086bf530ca5f9 = $(`<div id="html_0094308cd365b98009b086bf530ca5f9" style="width: 100.0%; height: 100.0%;">OR: 18.43 student-teacher ratio</div>`)[0];
+                popup_508cf8d9ca442bad7422386628c3ac90.setContent(html_0094308cd365b98009b086bf530ca5f9);
+            
+        
+
+        circle_marker_9035831bd244ce7b13370362944eff8b.bindPopup(popup_508cf8d9ca442bad7422386628c3ac90)
+        ;
+
+        
+    
+    
+            var circle_marker_7926c4ce5192a16334bdef391b3e653b = L.circleMarker(
+                [47.29500320883848, -121.36300942354322],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_f10447d734f824de64782d0449ba8493 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc196b319f609cf69adb7889eab8f5f0 = $(`<div id="html_cc196b319f609cf69adb7889eab8f5f0" style="width: 100.0%; height: 100.0%;">WA: 18.32 student-teacher ratio</div>`)[0];
+                popup_f10447d734f824de64782d0449ba8493.setContent(html_cc196b319f609cf69adb7889eab8f5f0);
+            
+        
+
+        circle_marker_7926c4ce5192a16334bdef391b3e653b.bindPopup(popup_f10447d734f824de64782d0449ba8493)
+        ;
+
+        
+    
+    
+            var circle_marker_5532de993ec31d584d83aba35dcc100c = L.circleMarker(
+                [42.939059916998296, -84.37573166060261],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_350a284170998186563e1d47fd90a45f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb86b8df125f99d5bc778dc7d06301c1 = $(`<div id="html_fb86b8df125f99d5bc778dc7d06301c1" style="width: 100.0%; height: 100.0%;">MI: 17.94 student-teacher ratio</div>`)[0];
+                popup_350a284170998186563e1d47fd90a45f.setContent(html_fb86b8df125f99d5bc778dc7d06301c1);
+            
+        
+
+        circle_marker_5532de993ec31d584d83aba35dcc100c.bindPopup(popup_350a284170998186563e1d47fd90a45f)
+        ;
+
+        
+    
+    
+            var circle_marker_df9acf052ab4d375a685fab775f8a545 = L.circleMarker(
+                [27.976768660350878, -81.78872078245615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_d3b43ecb55e1bdc5cf886775571a7417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_191745837395dbb95ec1f85a296a5854 = $(`<div id="html_191745837395dbb95ec1f85a296a5854" style="width: 100.0%; height: 100.0%;">FL: 17.82 student-teacher ratio</div>`)[0];
+                popup_d3b43ecb55e1bdc5cf886775571a7417.setContent(html_191745837395dbb95ec1f85a296a5854);
+            
+        
+
+        circle_marker_df9acf052ab4d375a685fab775f8a545.bindPopup(popup_d3b43ecb55e1bdc5cf886775571a7417)
+        ;
+
+        
+    
+    
+            var circle_marker_a16a13febe441d45af2c688544f20d07 = L.circleMarker(
+                [40.4607613398459, -82.75744127270225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_32edefc1005d60bd944f2a0d8050e253 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33ef178df4c8ffd169823cd653c0484e = $(`<div id="html_33ef178df4c8ffd169823cd653c0484e" style="width: 100.0%; height: 100.0%;">OH: 17.81 student-teacher ratio</div>`)[0];
+                popup_32edefc1005d60bd944f2a0d8050e253.setContent(html_33ef178df4c8ffd169823cd653c0484e);
+            
+        
+
+        circle_marker_a16a13febe441d45af2c688544f20d07.bindPopup(popup_32edefc1005d60bd944f2a0d8050e253)
+        ;
+
+        
+    
+    
+            var circle_marker_402a20d2b038e0992c201091009be389 = L.circleMarker(
+                [35.562802458621945, -79.65219265876777],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_ea1f5231417ae34772bf99c9d427cb9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a60c8f1f6d414d793e427664444c27cb = $(`<div id="html_a60c8f1f6d414d793e427664444c27cb" style="width: 100.0%; height: 100.0%;">NC: 17.10 student-teacher ratio</div>`)[0];
+                popup_ea1f5231417ae34772bf99c9d427cb9e.setContent(html_a60c8f1f6d414d793e427664444c27cb);
+            
+        
+
+        circle_marker_402a20d2b038e0992c201091009be389.bindPopup(popup_ea1f5231417ae34772bf99c9d427cb9e)
+        ;
+
+        
+    
+    
+            var circle_marker_71053360f7d08eb140ae6b00e16567ed = L.circleMarker(
+                [39.41466668115942, -105.20229719047619],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_73ad515268a120ac98e8b039c2bdb60a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9335ff260aa66f8fb084df49806a31a = $(`<div id="html_a9335ff260aa66f8fb084df49806a31a" style="width: 100.0%; height: 100.0%;">CO: 16.69 student-teacher ratio</div>`)[0];
+                popup_73ad515268a120ac98e8b039c2bdb60a.setContent(html_a9335ff260aa66f8fb084df49806a31a);
+            
+        
+
+        circle_marker_71053360f7d08eb140ae6b00e16567ed.bindPopup(popup_73ad515268a120ac98e8b039c2bdb60a)
+        ;
+
+        
+    
+    
+            var circle_marker_a583c7e7506eeda12fae18511d309b71 = L.circleMarker(
+                [40.11271378709006, -86.25182034669443],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_bbea5e16846228b6f90ebc9366d94bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caad4bea4a22859fea8f5a5dffd69d6f = $(`<div id="html_caad4bea4a22859fea8f5a5dffd69d6f" style="width: 100.0%; height: 100.0%;">IN: 15.85 student-teacher ratio</div>`)[0];
+                popup_bbea5e16846228b6f90ebc9366d94bc6.setContent(html_caad4bea4a22859fea8f5a5dffd69d6f);
+            
+        
+
+        circle_marker_a583c7e7506eeda12fae18511d309b71.bindPopup(popup_bbea5e16846228b6f90ebc9366d94bc6)
+        ;
+
+        
+    
+    
+            var circle_marker_a051f7100bd0acdcc78009f53706c883 = L.circleMarker(
+                [35.535741238789235, -96.91061412668161],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_08b17d9465b9bd38cac0eeb4490b219a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2edba66ea74820eb8298d4e194e1ba7 = $(`<div id="html_e2edba66ea74820eb8298d4e194e1ba7" style="width: 100.0%; height: 100.0%;">OK: 15.77 student-teacher ratio</div>`)[0];
+                popup_08b17d9465b9bd38cac0eeb4490b219a.setContent(html_e2edba66ea74820eb8298d4e194e1ba7);
+            
+        
+
+        circle_marker_a051f7100bd0acdcc78009f53706c883.bindPopup(popup_08b17d9465b9bd38cac0eeb4490b219a)
+        ;
+
+        
+    
+    
+            var circle_marker_8300cc943c832569b971e72def8def10 = L.circleMarker(
+                [33.04395171776316, -86.73193422302631],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_98e7c2628fe282fd32c0004eb93f8dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da923ea0dc992d552658b50bdc855d72 = $(`<div id="html_da923ea0dc992d552658b50bdc855d72" style="width: 100.0%; height: 100.0%;">AL: 15.51 student-teacher ratio</div>`)[0];
+                popup_98e7c2628fe282fd32c0004eb93f8dd9.setContent(html_da923ea0dc992d552658b50bdc855d72);
+            
+        
+
+        circle_marker_8300cc943c832569b971e72def8def10.bindPopup(popup_98e7c2628fe282fd32c0004eb93f8dd9)
+        ;
+
+        
+    
+    
+            var circle_marker_3790f11821eceb91f7730a4fa34129de = L.circleMarker(
+                [43.86122798661312, -89.25367331280678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_7bbf1dd82a976630f6c8a6acecad9021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9216a990e9fa080e3b1a4f5d6e97d84c = $(`<div id="html_9216a990e9fa080e3b1a4f5d6e97d84c" style="width: 100.0%; height: 100.0%;">WI: 15.15 student-teacher ratio</div>`)[0];
+                popup_7bbf1dd82a976630f6c8a6acecad9021.setContent(html_9216a990e9fa080e3b1a4f5d6e97d84c);
+            
+        
+
+        circle_marker_3790f11821eceb91f7730a4fa34129de.bindPopup(popup_7bbf1dd82a976630f6c8a6acecad9021)
+        ;
+
+        
+    
+    
+            var circle_marker_fe7d88ccf4fb5e2293732d36d10094bd = L.circleMarker(
+                [47.39822259203036, -99.78963786717267],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_415c96f7da42bdc3b6e9d8f98a820da9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db368d710bb5eda4e3be69e251e8d5b8 = $(`<div id="html_db368d710bb5eda4e3be69e251e8d5b8" style="width: 100.0%; height: 100.0%;">ND: 15.15 student-teacher ratio</div>`)[0];
+                popup_415c96f7da42bdc3b6e9d8f98a820da9.setContent(html_db368d710bb5eda4e3be69e251e8d5b8);
+            
+        
+
+        circle_marker_fe7d88ccf4fb5e2293732d36d10094bd.bindPopup(popup_415c96f7da42bdc3b6e9d8f98a820da9)
+        ;
+
+        
+    
+    
+            var circle_marker_03c06f5effbdeb78490c705fc97c6ccf = L.circleMarker(
+                [37.75231897211414, -85.18150785603113],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_46db58a2ea2b6c42bf40000ddbb1bbd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00cb01451e3387c2d43c8093df77edbf = $(`<div id="html_00cb01451e3387c2d43c8093df77edbf" style="width: 100.0%; height: 100.0%;">KY: 15.10 student-teacher ratio</div>`)[0];
+                popup_46db58a2ea2b6c42bf40000ddbb1bbd3.setContent(html_00cb01451e3387c2d43c8093df77edbf);
+            
+        
+
+        circle_marker_03c06f5effbdeb78490c705fc97c6ccf.bindPopup(popup_46db58a2ea2b6c42bf40000ddbb1bbd3)
+        ;
+
+        
+    
+    
+            var circle_marker_7a5aa609f0b85167d2dea13bb1b913c2 = L.circleMarker(
+                [35.81716601631579, -86.38993629263157],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_28c87919f78f5eefbc69d135a5800546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9da109cc486e01131ea2463a0ed5be0f = $(`<div id="html_9da109cc486e01131ea2463a0ed5be0f" style="width: 100.0%; height: 100.0%;">TN: 14.99 student-teacher ratio</div>`)[0];
+                popup_28c87919f78f5eefbc69d135a5800546.setContent(html_9da109cc486e01131ea2463a0ed5be0f);
+            
+        
+
+        circle_marker_7a5aa609f0b85167d2dea13bb1b913c2.bindPopup(popup_28c87919f78f5eefbc69d135a5800546)
+        ;
+
+        
+    
+    
+            var circle_marker_374b9009b97bc6f65a4b0a561b49d7c1 = L.circleMarker(
+                [34.66813999785638, -106.25737520685959],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_6a6b69ee48b54b42d7787746167e1c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05f8ae65053bda55989f56c6fbd52aab = $(`<div id="html_05f8ae65053bda55989f56c6fbd52aab" style="width: 100.0%; height: 100.0%;">NM: 14.70 student-teacher ratio</div>`)[0];
+                popup_6a6b69ee48b54b42d7787746167e1c82.setContent(html_05f8ae65053bda55989f56c6fbd52aab);
+            
+        
+
+        circle_marker_374b9009b97bc6f65a4b0a561b49d7c1.bindPopup(popup_6a6b69ee48b54b42d7787746167e1c82)
+        ;
+
+        
+    
+    
+            var circle_marker_b0e2010c26e67a8f7e83cd2e82bfba84 = L.circleMarker(
+                [41.981186655379986, -93.18339241083521],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_b572f13e02695505400806e749a7634f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7befc3e458fd8004e05a643f9fbb0731 = $(`<div id="html_7befc3e458fd8004e05a643f9fbb0731" style="width: 100.0%; height: 100.0%;">IA: 14.52 student-teacher ratio</div>`)[0];
+                popup_b572f13e02695505400806e749a7634f.setContent(html_7befc3e458fd8004e05a643f9fbb0731);
+            
+        
+
+        circle_marker_b0e2010c26e67a8f7e83cd2e82bfba84.bindPopup(popup_b572f13e02695505400806e749a7634f)
+        ;
+
+        
+    
+    
+            var circle_marker_a068088e31b6b5dcb58a42b0b44ff08c = L.circleMarker(
+                [21.05344874915254, -157.40524097288136],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_e59bdf8da28e65564fb27291c1a5efff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30b6b864d3312b04c0353d8062188105 = $(`<div id="html_30b6b864d3312b04c0353d8062188105" style="width: 100.0%; height: 100.0%;">HI: 14.23 student-teacher ratio</div>`)[0];
+                popup_e59bdf8da28e65564fb27291c1a5efff.setContent(html_30b6b864d3312b04c0353d8062188105);
+            
+        
+
+        circle_marker_a068088e31b6b5dcb58a42b0b44ff08c.bindPopup(popup_e59bdf8da28e65564fb27291c1a5efff)
+        ;
+
+        
+    
+    
+            var circle_marker_36f61c734175cd636cdaf2044c422789 = L.circleMarker(
+                [33.3153635701338, -83.87299613767803],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_100c60bf36a1513bb24efff212c92e08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02609b79181cd1ea66136bc18b25691c = $(`<div id="html_02609b79181cd1ea66136bc18b25691c" style="width: 100.0%; height: 100.0%;">GA: 14.21 student-teacher ratio</div>`)[0];
+                popup_100c60bf36a1513bb24efff212c92e08.setContent(html_02609b79181cd1ea66136bc18b25691c);
+            
+        
+
+        circle_marker_36f61c734175cd636cdaf2044c422789.bindPopup(popup_100c60bf36a1513bb24efff212c92e08)
+        ;
+
+        
+    
+    
+            var circle_marker_8c9662073f4c2da9e85b89a9504e9d71 = L.circleMarker(
+                [39.13825156426554, -76.81197677259887],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_0ba4f5d429312e3e2724830dc95c7559 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_490c6aaf8e4c4183966654463d817930 = $(`<div id="html_490c6aaf8e4c4183966654463d817930" style="width: 100.0%; height: 100.0%;">MD: 13.91 student-teacher ratio</div>`)[0];
+                popup_0ba4f5d429312e3e2724830dc95c7559.setContent(html_490c6aaf8e4c4183966654463d817930);
+            
+        
+
+        circle_marker_8c9662073f4c2da9e85b89a9504e9d71.bindPopup(popup_0ba4f5d429312e3e2724830dc95c7559)
+        ;
+
+        
+    
+    
+            var circle_marker_67835f6f6b65380c58eb23a2f80a8f81 = L.circleMarker(
+                [45.23893419285977, -93.70201054287817],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_71fae242ba6e08f55a422fb85e5b77f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7ab6a474f2e88e7283d7d44114023bf = $(`<div id="html_e7ab6a474f2e88e7283d7d44114023bf" style="width: 100.0%; height: 100.0%;">MN: 13.56 student-teacher ratio</div>`)[0];
+                popup_71fae242ba6e08f55a422fb85e5b77f5.setContent(html_e7ab6a474f2e88e7283d7d44114023bf);
+            
+        
+
+        circle_marker_67835f6f6b65380c58eb23a2f80a8f81.bindPopup(popup_71fae242ba6e08f55a422fb85e5b77f5)
+        ;
+
+        
+    
+    
+            var circle_marker_45fefe2c41ca2672f557dd839329465e = L.circleMarker(
+                [38.41782028097345, -96.91044146607669],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_27554aa923fa559f215371bcf823bb3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd33f83b3cf5ef1892114e5a065b1885 = $(`<div id="html_bd33f83b3cf5ef1892114e5a065b1885" style="width: 100.0%; height: 100.0%;">KS: 13.51 student-teacher ratio</div>`)[0];
+                popup_27554aa923fa559f215371bcf823bb3f.setContent(html_bd33f83b3cf5ef1892114e5a065b1885);
+            
+        
+
+        circle_marker_45fefe2c41ca2672f557dd839329465e.bindPopup(popup_27554aa923fa559f215371bcf823bb3f)
+        ;
+
+        
+    
+    
+            var circle_marker_e37c42e4e6d9f5b7ddd72ca939ed871f = L.circleMarker(
+                [34.03680434350547, -81.01834771596243],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_ce11ea7262e7f09d77352699a0d4cb35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dea0e32c98a5e73e90a5daed8bf2284c = $(`<div id="html_dea0e32c98a5e73e90a5daed8bf2284c" style="width: 100.0%; height: 100.0%;">SC: 13.45 student-teacher ratio</div>`)[0];
+                popup_ce11ea7262e7f09d77352699a0d4cb35.setContent(html_dea0e32c98a5e73e90a5daed8bf2284c);
+            
+        
+
+        circle_marker_e37c42e4e6d9f5b7ddd72ca939ed871f.bindPopup(popup_ce11ea7262e7f09d77352699a0d4cb35)
+        ;
+
+        
+    
+    
+            var circle_marker_bbe10ed2f68c6cd6bf196a4275f41bc7 = L.circleMarker(
+                [44.17098397466666, -98.881205596],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_a39e16b8fcfdb8a58373f614a88d4543 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c998d458d55642f86f834abed6378d41 = $(`<div id="html_c998d458d55642f86f834abed6378d41" style="width: 100.0%; height: 100.0%;">SD: 13.41 student-teacher ratio</div>`)[0];
+                popup_a39e16b8fcfdb8a58373f614a88d4543.setContent(html_c998d458d55642f86f834abed6378d41);
+            
+        
+
+        circle_marker_bbe10ed2f68c6cd6bf196a4275f41bc7.bindPopup(popup_a39e16b8fcfdb8a58373f614a88d4543)
+        ;
+
+        
+    
+    
+            var circle_marker_8cd371577575c8674b8bca21b9acce2a = L.circleMarker(
+                [35.14268519398907, -92.66327203369764],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_edc52d94199fd8a5221050221ab531a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ef34c5dc4e12e2ba4d2c03291a6f227 = $(`<div id="html_6ef34c5dc4e12e2ba4d2c03291a6f227" style="width: 100.0%; height: 100.0%;">AR: 13.35 student-teacher ratio</div>`)[0];
+                popup_edc52d94199fd8a5221050221ab531a9.setContent(html_6ef34c5dc4e12e2ba4d2c03291a6f227);
+            
+        
+
+        circle_marker_8cd371577575c8674b8bca21b9acce2a.bindPopup(popup_edc52d94199fd8a5221050221ab531a9)
+        ;
+
+        
+    
+    
+            var circle_marker_a184b84ffa163e31a850b13f7e4b3d3e = L.circleMarker(
+                [40.4822748856076, -77.18164237610318],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_5566208d43f80f207df628580d666d03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c98fba2e92a745bc5c032b01e2a9aa4 = $(`<div id="html_5c98fba2e92a745bc5c032b01e2a9aa4" style="width: 100.0%; height: 100.0%;">PA: 13.26 student-teacher ratio</div>`)[0];
+                popup_5566208d43f80f207df628580d666d03.setContent(html_5c98fba2e92a745bc5c032b01e2a9aa4);
+            
+        
+
+        circle_marker_a184b84ffa163e31a850b13f7e4b3d3e.bindPopup(popup_5566208d43f80f207df628580d666d03)
+        ;
+
+        
+    
+    
+            var circle_marker_372510fb0d1f6e1d5895277c6b1beb06 = L.circleMarker(
+                [30.961296314654724, -97.5235207234663],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_f0cff5c4b6c05d2a94bce73589b28192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6ce42552a2c5368795af839803fb8a4 = $(`<div id="html_c6ce42552a2c5368795af839803fb8a4" style="width: 100.0%; height: 100.0%;">TX: 13.20 student-teacher ratio</div>`)[0];
+                popup_f0cff5c4b6c05d2a94bce73589b28192.setContent(html_c6ce42552a2c5368795af839803fb8a4);
+            
+        
+
+        circle_marker_372510fb0d1f6e1d5895277c6b1beb06.bindPopup(popup_f0cff5c4b6c05d2a94bce73589b28192)
+        ;
+
+        
+    
+    
+            var circle_marker_e80255d5c54f24f084ff8b76deffbcb1 = L.circleMarker(
+                [39.31889530212766, -75.55781408510637],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_65137d52e01aea07abd87bfd1500d31a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d0879151685f2bc7b63d64543b92f51 = $(`<div id="html_2d0879151685f2bc7b63d64543b92f51" style="width: 100.0%; height: 100.0%;">DE: 13.18 student-teacher ratio</div>`)[0];
+                popup_65137d52e01aea07abd87bfd1500d31a.setContent(html_2d0879151685f2bc7b63d64543b92f51);
+            
+        
+
+        circle_marker_e80255d5c54f24f084ff8b76deffbcb1.bindPopup(popup_65137d52e01aea07abd87bfd1500d31a)
+        ;
+
+        
+    
+    
+            var circle_marker_ecb8eab82d077a15d1e86cca252b0619 = L.circleMarker(
+                [41.24771686392695, -97.86628776164383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_771d4538902ed1b8edc4c6d3a3bc8a70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ab2dc8f0201c85a631b87cbe1983ce = $(`<div id="html_d1ab2dc8f0201c85a631b87cbe1983ce" style="width: 100.0%; height: 100.0%;">NE: 13.16 student-teacher ratio</div>`)[0];
+                popup_771d4538902ed1b8edc4c6d3a3bc8a70.setContent(html_d1ab2dc8f0201c85a631b87cbe1983ce);
+            
+        
+
+        circle_marker_ecb8eab82d077a15d1e86cca252b0619.bindPopup(popup_771d4538902ed1b8edc4c6d3a3bc8a70)
+        ;
+
+        
+    
+    
+            var circle_marker_5fcd9b7d259d7bbc09ab0870a3b59108 = L.circleMarker(
+                [41.05415172663339, -88.54677252586207],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_938124c3f3481b8f8a8e54809452521d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d03b3844ef23a94d8d946dda8ed64547 = $(`<div id="html_d03b3844ef23a94d8d946dda8ed64547" style="width: 100.0%; height: 100.0%;">IL: 12.86 student-teacher ratio</div>`)[0];
+                popup_938124c3f3481b8f8a8e54809452521d.setContent(html_d03b3844ef23a94d8d946dda8ed64547);
+            
+        
+
+        circle_marker_5fcd9b7d259d7bbc09ab0870a3b59108.bindPopup(popup_938124c3f3481b8f8a8e54809452521d)
+        ;
+
+        
+    
+    
+            var circle_marker_d37633ac7e3ff74076e6e64bd4574df1 = L.circleMarker(
+                [41.76151143670886, -71.45512574367089],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_07491b5a30af55ce48af4a5acdc69d8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cd7972b16c6d46cf4f10599e5105cda = $(`<div id="html_2cd7972b16c6d46cf4f10599e5105cda" style="width: 100.0%; height: 100.0%;">RI: 12.80 student-teacher ratio</div>`)[0];
+                popup_07491b5a30af55ce48af4a5acdc69d8e.setContent(html_2cd7972b16c6d46cf4f10599e5105cda);
+            
+        
+
+        circle_marker_d37633ac7e3ff74076e6e64bd4574df1.bindPopup(popup_07491b5a30af55ce48af4a5acdc69d8e)
+        ;
+
+        
+    
+    
+            var circle_marker_9ac2899055d95959d76c94a679e23d85 = L.circleMarker(
+                [38.7373752540146, -80.76974457810219],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_41c7e7c2b9fd187987c6d44d080d9915 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac937dfe28d7b05f3072906b09817012 = $(`<div id="html_ac937dfe28d7b05f3072906b09817012" style="width: 100.0%; height: 100.0%;">WV: 12.56 student-teacher ratio</div>`)[0];
+                popup_41c7e7c2b9fd187987c6d44d080d9915.setContent(html_ac937dfe28d7b05f3072906b09817012);
+            
+        
+
+        circle_marker_9ac2899055d95959d76c94a679e23d85.bindPopup(popup_41c7e7c2b9fd187987c6d44d080d9915)
+        ;
+
+        
+    
+    
+            var circle_marker_e62630b01eda7372f0c7fc4ce18227a4 = L.circleMarker(
+                [42.27789949266703, -71.43941502933188],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_fafb2fc128a98dc7a3ff01bbd49d3f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c32c4f497bec4ddebaddc53e5b8a95 = $(`<div id="html_45c32c4f497bec4ddebaddc53e5b8a95" style="width: 100.0%; height: 100.0%;">MA: 12.00 student-teacher ratio</div>`)[0];
+                popup_fafb2fc128a98dc7a3ff01bbd49d3f60.setContent(html_45c32c4f497bec4ddebaddc53e5b8a95);
+            
+        
+
+        circle_marker_e62630b01eda7372f0c7fc4ce18227a4.bindPopup(popup_fafb2fc128a98dc7a3ff01bbd49d3f60)
+        ;
+
+        
+    
+    
+            var circle_marker_a0ed9aa659fa49936a1d3fe4d94d5a1d = L.circleMarker(
+                [44.055517036184206, -72.75208830921054],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_3ca5040955cd515a3e9b8e22962dd440 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afc84d60168f15d4c8290c7bf988cbe0 = $(`<div id="html_afc84d60168f15d4c8290c7bf988cbe0" style="width: 100.0%; height: 100.0%;">VT: 11.98 student-teacher ratio</div>`)[0];
+                popup_3ca5040955cd515a3e9b8e22962dd440.setContent(html_afc84d60168f15d4c8290c7bf988cbe0);
+            
+        
+
+        circle_marker_a0ed9aa659fa49936a1d3fe4d94d5a1d.bindPopup(popup_3ca5040955cd515a3e9b8e22962dd440)
+        ;
+
+        
+    
+    
+            var circle_marker_8d1d8de72517b2279fddafd81cd32ff3 = L.circleMarker(
+                [18.03419640909091, -64.83992068181819],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_1938f156e8e15c9167ea8c4e8188c1ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5abf1b361b6ab88ce3d5213295a2fe4d = $(`<div id="html_5abf1b361b6ab88ce3d5213295a2fe4d" style="width: 100.0%; height: 100.0%;">VI: 11.86 student-teacher ratio</div>`)[0];
+                popup_1938f156e8e15c9167ea8c4e8188c1ca.setContent(html_5abf1b361b6ab88ce3d5213295a2fe4d);
+            
+        
+
+        circle_marker_8d1d8de72517b2279fddafd81cd32ff3.bindPopup(popup_1938f156e8e15c9167ea8c4e8188c1ca)
+        ;
+
+        
+    
+    
+            var circle_marker_25a44f5dc56aea2c17bd825144c79915 = L.circleMarker(
+                [38.40458763526082, -92.38864847553579],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_50b37a9fc0797f793b79b2d00fc6d3ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83e71ca45ac6b06d038b8ca7a8fc8718 = $(`<div id="html_83e71ca45ac6b06d038b8ca7a8fc8718" style="width: 100.0%; height: 100.0%;">MO: 11.74 student-teacher ratio</div>`)[0];
+                popup_50b37a9fc0797f793b79b2d00fc6d3ae.setContent(html_83e71ca45ac6b06d038b8ca7a8fc8718);
+            
+        
+
+        circle_marker_25a44f5dc56aea2c17bd825144c79915.bindPopup(popup_50b37a9fc0797f793b79b2d00fc6d3ae)
+        ;
+
+        
+    
+    
+            var circle_marker_2b1456fdb14765d5bcc8c9a4918f33fd = L.circleMarker(
+                [41.51332158023483, -72.85108112524462],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_c71e0b0314e4c0322d1dd4119aff8d63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7a86c5297fa528dbf189772bc5293c6 = $(`<div id="html_e7a86c5297fa528dbf189772bc5293c6" style="width: 100.0%; height: 100.0%;">CT: 11.67 student-teacher ratio</div>`)[0];
+                popup_c71e0b0314e4c0322d1dd4119aff8d63.setContent(html_e7a86c5297fa528dbf189772bc5293c6);
+            
+        
+
+        circle_marker_2b1456fdb14765d5bcc8c9a4918f33fd.bindPopup(popup_c71e0b0314e4c0322d1dd4119aff8d63)
+        ;
+
+        
+    
+    
+            var circle_marker_31b46a0ca2fa9a92b26d4a431cfc72fa = L.circleMarker(
+                [38.90386925925926, -76.9972601234568],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_50032d8c603e399d5950346c4ef807f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92ae1fabdc42a279d830effcd79e3824 = $(`<div id="html_92ae1fabdc42a279d830effcd79e3824" style="width: 100.0%; height: 100.0%;">DC: 11.62 student-teacher ratio</div>`)[0];
+                popup_50032d8c603e399d5950346c4ef807f8.setContent(html_92ae1fabdc42a279d830effcd79e3824);
+            
+        
+
+        circle_marker_31b46a0ca2fa9a92b26d4a431cfc72fa.bindPopup(popup_50032d8c603e399d5950346c4ef807f8)
+        ;
+
+        
+    
+    
+            var circle_marker_1d67380c8a0cc098829124287e1d17c2 = L.circleMarker(
+                [37.75464986669763, -78.02776145750116],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_70d290d013230f19125cf4615c59c993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f150b3206aebb8d1a6ae6c494a8468bf = $(`<div id="html_f150b3206aebb8d1a6ae6c494a8468bf" style="width: 100.0%; height: 100.0%;">VA: 11.50 student-teacher ratio</div>`)[0];
+                popup_70d290d013230f19125cf4615c59c993.setContent(html_f150b3206aebb8d1a6ae6c494a8468bf);
+            
+        
+
+        circle_marker_1d67380c8a0cc098829124287e1d17c2.bindPopup(popup_70d290d013230f19125cf4615c59c993)
+        ;
+
+        
+    
+    
+            var circle_marker_c420cee26adae60dab9a9edcf1f822b3 = L.circleMarker(
+                [41.61701681116856, -74.74018849989659],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_b0acf5954eb62a2ae8b5c3591b189947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_febd1efa772e0df66b85028aa9f76b74 = $(`<div id="html_febd1efa772e0df66b85028aa9f76b74" style="width: 100.0%; height: 100.0%;">NY: 11.49 student-teacher ratio</div>`)[0];
+                popup_b0acf5954eb62a2ae8b5c3591b189947.setContent(html_febd1efa772e0df66b85028aa9f76b74);
+            
+        
+
+        circle_marker_c420cee26adae60dab9a9edcf1f822b3.bindPopup(popup_b0acf5954eb62a2ae8b5c3591b189947)
+        ;
+
+        
+    
+    
+            var circle_marker_1b14dcbd66bce45d14ac99c3c727d1eb = L.circleMarker(
+                [40.43988296219798, -74.45498967147311],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_2399135698319a91a3b4eaccc72c77e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccec0dec28541fe2330c02a597e8cb06 = $(`<div id="html_ccec0dec28541fe2330c02a597e8cb06" style="width: 100.0%; height: 100.0%;">NJ: 11.45 student-teacher ratio</div>`)[0];
+                popup_2399135698319a91a3b4eaccc72c77e9.setContent(html_ccec0dec28541fe2330c02a597e8cb06);
+            
+        
+
+        circle_marker_1b14dcbd66bce45d14ac99c3c727d1eb.bindPopup(popup_2399135698319a91a3b4eaccc72c77e9)
+        ;
+
+        
+    
+    
+            var circle_marker_59b02d540b447e05d4cf015e91169c88 = L.circleMarker(
+                [42.80614191712707, -107.11402188121546],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_e817b29feeee07a13480ccebfcd688ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3864a44a0b34bcd8d420bfcf2e702e9f = $(`<div id="html_3864a44a0b34bcd8d420bfcf2e702e9f" style="width: 100.0%; height: 100.0%;">WY: 11.40 student-teacher ratio</div>`)[0];
+                popup_e817b29feeee07a13480ccebfcd688ee.setContent(html_3864a44a0b34bcd8d420bfcf2e702e9f);
+            
+        
+
+        circle_marker_59b02d540b447e05d4cf015e91169c88.bindPopup(popup_e817b29feeee07a13480ccebfcd688ee)
+        ;
+
+        
+    
+    
+            var circle_marker_4ce651095b552c0c9e8839671732c10e = L.circleMarker(
+                [32.6509273585086, -89.59723376099427],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_d5670f752525fa283e7e3aa503e6cf72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296f71885b97cbae2c06a6b530982294 = $(`<div id="html_296f71885b97cbae2c06a6b530982294" style="width: 100.0%; height: 100.0%;">MS: 11.37 student-teacher ratio</div>`)[0];
+                popup_d5670f752525fa283e7e3aa503e6cf72.setContent(html_296f71885b97cbae2c06a6b530982294);
+            
+        
+
+        circle_marker_4ce651095b552c0c9e8839671732c10e.bindPopup(popup_d5670f752525fa283e7e3aa503e6cf72)
+        ;
+
+        
+    
+    
+            var circle_marker_b1df4a66291143541845823c7771ca22 = L.circleMarker(
+                [46.97537191127098, -110.41522042206235],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_bf6930ec630e430cf16fdfda773e00ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f1a95cf0315fcc94b5268bb08ddc4f = $(`<div id="html_86f1a95cf0315fcc94b5268bb08ddc4f" style="width: 100.0%; height: 100.0%;">MT: 11.28 student-teacher ratio</div>`)[0];
+                popup_bf6930ec630e430cf16fdfda773e00ce.setContent(html_86f1a95cf0315fcc94b5268bb08ddc4f);
+            
+        
+
+        circle_marker_b1df4a66291143541845823c7771ca22.bindPopup(popup_bf6930ec630e430cf16fdfda773e00ce)
+        ;
+
+        
+    
+    
+            var circle_marker_3d67fd5e887d4b5e841f6c0633ecfaab = L.circleMarker(
+                [43.2562492306163, -71.53078572166999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_196c85d029d35c1ec841a1e29653a87a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe85819e1bf0005527a4b6e231ddbef6 = $(`<div id="html_fe85819e1bf0005527a4b6e231ddbef6" style="width: 100.0%; height: 100.0%;">NH: 11.16 student-teacher ratio</div>`)[0];
+                popup_196c85d029d35c1ec841a1e29653a87a.setContent(html_fe85819e1bf0005527a4b6e231ddbef6);
+            
+        
+
+        circle_marker_3d67fd5e887d4b5e841f6c0633ecfaab.bindPopup(popup_196c85d029d35c1ec841a1e29653a87a)
+        ;
+
+        
+    
+    
+            var circle_marker_dff66cc335ce326cfbaa9e471e5a049d = L.circleMarker(
+                [44.448081, -69.51383611666667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_46daa3055f1d201c6f805a7dc51bcdc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ec9aad7c5a7c2f47daa6eb1ccd3136 = $(`<div id="html_88ec9aad7c5a7c2f47daa6eb1ccd3136" style="width: 100.0%; height: 100.0%;">ME: 10.29 student-teacher ratio</div>`)[0];
+                popup_46daa3055f1d201c6f805a7dc51bcdc7.setContent(html_88ec9aad7c5a7c2f47daa6eb1ccd3136);
+            
+        
+
+        circle_marker_dff66cc335ce326cfbaa9e471e5a049d.bindPopup(popup_46daa3055f1d201c6f805a7dc51bcdc7)
+        ;
+
+        
+    
+    
+            var circle_marker_62b5cd638857f09a5226eeff3ab8684a = L.circleMarker(
+                [18.26089658158508, -66.35882987762238],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_967f2b08d94a1eef632963464dbfdf84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60fb740ef1003d27b33893b16d972fbe = $(`<div id="html_60fb740ef1003d27b33893b16d972fbe" style="width: 100.0%; height: 100.0%;">PR: 10.10 student-teacher ratio</div>`)[0];
+                popup_967f2b08d94a1eef632963464dbfdf84.setContent(html_60fb740ef1003d27b33893b16d972fbe);
+            
+        
+
+        circle_marker_62b5cd638857f09a5226eeff3ab8684a.bindPopup(popup_967f2b08d94a1eef632963464dbfdf84)
+        ;
+
+        
+    
+    
+            var circle_marker_106f3eeeff7604a45097c4108346bd70 = L.circleMarker(
+                [33.42923964787644, -111.74636784864866],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_b3adad04f48ecaa3aad92cea0a8eea6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d2e5e86cdd983106963e2de1f2f4da = $(`<div id="html_c2d2e5e86cdd983106963e2de1f2f4da" style="width: 100.0%; height: 100.0%;">AZ: 9.45 student-teacher ratio</div>`)[0];
+                popup_b3adad04f48ecaa3aad92cea0a8eea6e.setContent(html_c2d2e5e86cdd983106963e2de1f2f4da);
+            
+        
+
+        circle_marker_106f3eeeff7604a45097c4108346bd70.bindPopup(popup_b3adad04f48ecaa3aad92cea0a8eea6e)
+        ;
+
+        
+    
+    
+            var circle_marker_56612636ec6da60c32b343626c0f6dc9 = L.circleMarker(
+                [13.4656286, 144.78732946666668],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_34c85e1f638ba9b571ab42f74fff7bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c557a475b231540871f84ba29ee9fe9e = $(`<div id="html_c557a475b231540871f84ba29ee9fe9e" style="width: 100.0%; height: 100.0%;">GU: -1.00 student-teacher ratio</div>`)[0];
+                popup_34c85e1f638ba9b571ab42f74fff7bb4.setContent(html_c557a475b231540871f84ba29ee9fe9e);
+            
+        
+
+        circle_marker_56612636ec6da60c32b343626c0f6dc9.bindPopup(popup_34c85e1f638ba9b571ab42f74fff7bb4)
+        ;
+
+        
+    
+    
+            var circle_marker_3c66a38c5a3ac56a589681bfeba6260c = L.circleMarker(
+                [-14.285067551724138, -170.53190355172413],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_2e71a16e0e2d9865560aa2cad7d021ba);
+        
+    
+        var popup_38b3211b0f503a2ccaf440af5ada6d23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cac1116785a8df106d16b8e0ec19490 = $(`<div id="html_5cac1116785a8df106d16b8e0ec19490" style="width: 100.0%; height: 100.0%;">AS: -1.00 student-teacher ratio</div>`)[0];
+                popup_38b3211b0f503a2ccaf440af5ada6d23.setContent(html_5cac1116785a8df106d16b8e0ec19490);
+            
+        
+
+        circle_marker_3c66a38c5a3ac56a589681bfeba6260c.bindPopup(popup_38b3211b0f503a2ccaf440af5ada6d23)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9db1825bcdb0d0a6b9325de259c580be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9db1825bcdb0d0a6b9325de259c580be" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9db1825bcdb0d0a6b9325de259c580be = L.map(
+                "map_9db1825bcdb0d0a6b9325de259c580be",
+                {
+                    center: [35.5175, -86.5804],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_817f289f3a79955a0003a19e44377a41 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_817f289f3a79955a0003a19e44377a41.addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+            var circle_marker_c284b5a857910b5ecdb1d983a259805f = L.circleMarker(
+                [36.099878266666664, -84.17169683333333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_f377815d2fa2d5093463b25af0ebb2c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11d7207e68bd54d3773680cb079393c2 = $(`<div id="html_11d7207e68bd54d3773680cb079393c2" style="width: 100.0%; height: 100.0%;">Anderson County: 12.54 student-teacher ratio</div>`)[0];
+                popup_f377815d2fa2d5093463b25af0ebb2c4.setContent(html_11d7207e68bd54d3773680cb079393c2);
+            
+        
+
+        circle_marker_c284b5a857910b5ecdb1d983a259805f.bindPopup(popup_f377815d2fa2d5093463b25af0ebb2c4)
+        ;
+
+        
+    
+    
+            var circle_marker_8191430e8deefeaddbedf5bb3ae5e5fb = L.circleMarker(
+                [35.5291488, -86.45001333333333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_357acc9eea2c4d4d450dc52d663a2864 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d12a85a14de6a988381fe0cd52655ca = $(`<div id="html_7d12a85a14de6a988381fe0cd52655ca" style="width: 100.0%; height: 100.0%;">Bedford County: 13.98 student-teacher ratio</div>`)[0];
+                popup_357acc9eea2c4d4d450dc52d663a2864.setContent(html_7d12a85a14de6a988381fe0cd52655ca);
+            
+        
+
+        circle_marker_8191430e8deefeaddbedf5bb3ae5e5fb.bindPopup(popup_357acc9eea2c4d4d450dc52d663a2864)
+        ;
+
+        
+    
+    
+            var circle_marker_31340fe89eb288f145db0106ae88c52a = L.circleMarker(
+                [36.06553375, -88.109275125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_b6071d65446775ebe3bc593f27427db2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a98352b2856654edf31066a86b9688b = $(`<div id="html_9a98352b2856654edf31066a86b9688b" style="width: 100.0%; height: 100.0%;">Benton County: 9.49 student-teacher ratio</div>`)[0];
+                popup_b6071d65446775ebe3bc593f27427db2.setContent(html_9a98352b2856654edf31066a86b9688b);
+            
+        
+
+        circle_marker_31340fe89eb288f145db0106ae88c52a.bindPopup(popup_b6071d65446775ebe3bc593f27427db2)
+        ;
+
+        
+    
+    
+            var circle_marker_0ee5b82123c7ab0a3960b9d622ee319f = L.circleMarker(
+                [35.5994344, -85.1957334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_f047b7dcba5988870bded1f6ff943566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eda8da90c72c5a66f6bc464eb7fb866 = $(`<div id="html_1eda8da90c72c5a66f6bc464eb7fb866" style="width: 100.0%; height: 100.0%;">Bledsoe County: 15.33 student-teacher ratio</div>`)[0];
+                popup_f047b7dcba5988870bded1f6ff943566.setContent(html_1eda8da90c72c5a66f6bc464eb7fb866);
+            
+        
+
+        circle_marker_0ee5b82123c7ab0a3960b9d622ee319f.bindPopup(popup_f047b7dcba5988870bded1f6ff943566)
+        ;
+
+        
+    
+    
+            var circle_marker_e373ebac05e42e7cc39dc02949f8e3ee = L.circleMarker(
+                [35.754415470588235, -83.9657733235294],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_848353d0b4f7e5d7346018cd392ce295 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cbcb24efa8795a7d1d04c741b908e55 = $(`<div id="html_5cbcb24efa8795a7d1d04c741b908e55" style="width: 100.0%; height: 100.0%;">Blount County: 14.87 student-teacher ratio</div>`)[0];
+                popup_848353d0b4f7e5d7346018cd392ce295.setContent(html_5cbcb24efa8795a7d1d04c741b908e55);
+            
+        
+
+        circle_marker_e373ebac05e42e7cc39dc02949f8e3ee.bindPopup(popup_848353d0b4f7e5d7346018cd392ce295)
+        ;
+
+        
+    
+    
+            var circle_marker_1914c33077d8ccdbb469fae3bc71411a = L.circleMarker(
+                [35.17399007407408, -84.85603618518518],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_4f407c6c4782493154c7ecdcb1518372 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30ed50b0f3535c4ca89faf99177386fc = $(`<div id="html_30ed50b0f3535c4ca89faf99177386fc" style="width: 100.0%; height: 100.0%;">Bradley County: 14.19 student-teacher ratio</div>`)[0];
+                popup_4f407c6c4782493154c7ecdcb1518372.setContent(html_30ed50b0f3535c4ca89faf99177386fc);
+            
+        
+
+        circle_marker_1914c33077d8ccdbb469fae3bc71411a.bindPopup(popup_4f407c6c4782493154c7ecdcb1518372)
+        ;
+
+        
+    
+    
+            var circle_marker_dc80415e2fae4c369c19f02abb024cad = L.circleMarker(
+                [36.42971925, -84.13119625],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_a0d4bda05c918fe00ccfa821f35da64a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1445c08d3909e01b5a660e7bb9f4bec = $(`<div id="html_e1445c08d3909e01b5a660e7bb9f4bec" style="width: 100.0%; height: 100.0%;">Campbell County: 8.89 student-teacher ratio</div>`)[0];
+                popup_a0d4bda05c918fe00ccfa821f35da64a.setContent(html_e1445c08d3909e01b5a660e7bb9f4bec);
+            
+        
+
+        circle_marker_dc80415e2fae4c369c19f02abb024cad.bindPopup(popup_a0d4bda05c918fe00ccfa821f35da64a)
+        ;
+
+        
+    
+    
+            var circle_marker_f99e415ff0ac90b8614433fe027876ea = L.circleMarker(
+                [35.799582, -86.083647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_218c2b82a4d7009954f3239fbe0537a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_024bb21a1e6dabc88ddce729796ce516 = $(`<div id="html_024bb21a1e6dabc88ddce729796ce516" style="width: 100.0%; height: 100.0%;">Cannon County: 16.18 student-teacher ratio</div>`)[0];
+                popup_218c2b82a4d7009954f3239fbe0537a3.setContent(html_024bb21a1e6dabc88ddce729796ce516);
+            
+        
+
+        circle_marker_f99e415ff0ac90b8614433fe027876ea.bindPopup(popup_218c2b82a4d7009954f3239fbe0537a3)
+        ;
+
+        
+    
+    
+            var circle_marker_17c66a9f695770428a7a4bd2d37d5727 = L.circleMarker(
+                [36.02593807142857, -88.45356342857143],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_1615652b498cfdc06afc8e841fd7b598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88f489ecad811c5a29de7b5cbe773cd8 = $(`<div id="html_88f489ecad811c5a29de7b5cbe773cd8" style="width: 100.0%; height: 100.0%;">Carroll County: 12.79 student-teacher ratio</div>`)[0];
+                popup_1615652b498cfdc06afc8e841fd7b598.setContent(html_88f489ecad811c5a29de7b5cbe773cd8);
+            
+        
+
+        circle_marker_17c66a9f695770428a7a4bd2d37d5727.bindPopup(popup_1615652b498cfdc06afc8e841fd7b598)
+        ;
+
+        
+    
+    
+            var circle_marker_371b16bdf2783cd6f7735f9f83807121 = L.circleMarker(
+                [36.32383604761905, -82.18700085714286],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_39e6c1196836faf6f4afcde2e08c6e05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f16217fdb189bb8c7976ec4f7aaae06b = $(`<div id="html_f16217fdb189bb8c7976ec4f7aaae06b" style="width: 100.0%; height: 100.0%;">Carter County: 14.05 student-teacher ratio</div>`)[0];
+                popup_39e6c1196836faf6f4afcde2e08c6e05.setContent(html_f16217fdb189bb8c7976ec4f7aaae06b);
+            
+        
+
+        circle_marker_371b16bdf2783cd6f7735f9f83807121.bindPopup(popup_39e6c1196836faf6f4afcde2e08c6e05)
+        ;
+
+        
+    
+    
+            var circle_marker_d9f9e2377aa8dfbae87e8485319f5e27 = L.circleMarker(
+                [36.257219642857144, -87.06916057142857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_261910bb5b85d093db2e32d876efef8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c56949a35d8eb1f6c0b232ec41edead1 = $(`<div id="html_c56949a35d8eb1f6c0b232ec41edead1" style="width: 100.0%; height: 100.0%;">Cheatham County: 14.58 student-teacher ratio</div>`)[0];
+                popup_261910bb5b85d093db2e32d876efef8b.setContent(html_c56949a35d8eb1f6c0b232ec41edead1);
+            
+        
+
+        circle_marker_d9f9e2377aa8dfbae87e8485319f5e27.bindPopup(popup_261910bb5b85d093db2e32d876efef8b)
+        ;
+
+        
+    
+    
+            var circle_marker_bd5c6a8d74f5dead953733f477e569a7 = L.circleMarker(
+                [35.4437, -88.61444999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_2b533e05f496a0a21ed1270a024ce803 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7668d0e872568cb924148efdadf0ddd0 = $(`<div id="html_7668d0e872568cb924148efdadf0ddd0" style="width: 100.0%; height: 100.0%;">Chester County: 15.60 student-teacher ratio</div>`)[0];
+                popup_2b533e05f496a0a21ed1270a024ce803.setContent(html_7668d0e872568cb924148efdadf0ddd0);
+            
+        
+
+        circle_marker_bd5c6a8d74f5dead953733f477e569a7.bindPopup(popup_2b533e05f496a0a21ed1270a024ce803)
+        ;
+
+        
+    
+    
+            var circle_marker_9e617acfbd40a00ca8f4995b5f70cf4c = L.circleMarker(
+                [36.49005457142857, -83.64142600000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_a52cc7b1473144f0a5a8ec205a7d5e0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbcfb5436a72bfbe852c7e2e8ba4a2ef = $(`<div id="html_cbcfb5436a72bfbe852c7e2e8ba4a2ef" style="width: 100.0%; height: 100.0%;">Claiborne County: 13.58 student-teacher ratio</div>`)[0];
+                popup_a52cc7b1473144f0a5a8ec205a7d5e0c.setContent(html_cbcfb5436a72bfbe852c7e2e8ba4a2ef);
+            
+        
+
+        circle_marker_9e617acfbd40a00ca8f4995b5f70cf4c.bindPopup(popup_a52cc7b1473144f0a5a8ec205a7d5e0c)
+        ;
+
+        
+    
+    
+            var circle_marker_1e52aa02fda2985cd0571a861a9e893d = L.circleMarker(
+                [36.555437749999996, -85.5787275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_23ca985289b7bbde8552a6b17d0f1452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10fd98f72b9fbd545894ec9e604e9623 = $(`<div id="html_10fd98f72b9fbd545894ec9e604e9623" style="width: 100.0%; height: 100.0%;">Clay County: 9.89 student-teacher ratio</div>`)[0];
+                popup_23ca985289b7bbde8552a6b17d0f1452.setContent(html_10fd98f72b9fbd545894ec9e604e9623);
+            
+        
+
+        circle_marker_1e52aa02fda2985cd0571a861a9e893d.bindPopup(popup_23ca985289b7bbde8552a6b17d0f1452)
+        ;
+
+        
+    
+    
+            var circle_marker_47f6cd1fe32e2e20980d6c5147a0a563 = L.circleMarker(
+                [35.93075669230769, -83.16914307692308],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_e1d5d355ce0ec4870813375e5387d432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea22a6a29f241e4b9c0fc853be7995f = $(`<div id="html_aea22a6a29f241e4b9c0fc853be7995f" style="width: 100.0%; height: 100.0%;">Cocke County: 12.56 student-teacher ratio</div>`)[0];
+                popup_e1d5d355ce0ec4870813375e5387d432.setContent(html_aea22a6a29f241e4b9c0fc853be7995f);
+            
+        
+
+        circle_marker_47f6cd1fe32e2e20980d6c5147a0a563.bindPopup(popup_e1d5d355ce0ec4870813375e5387d432)
+        ;
+
+        
+    
+    
+            var circle_marker_444bfa798a08cfc63551232ddb182630 = L.circleMarker(
+                [35.4515729047619, -86.12287847619048],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_86dc604e5d7bf99ba05292540c38b6e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dd404d62e64387529018af3cfda403f = $(`<div id="html_3dd404d62e64387529018af3cfda403f" style="width: 100.0%; height: 100.0%;">Coffee County: 13.28 student-teacher ratio</div>`)[0];
+                popup_86dc604e5d7bf99ba05292540c38b6e3.setContent(html_3dd404d62e64387529018af3cfda403f);
+            
+        
+
+        circle_marker_444bfa798a08cfc63551232ddb182630.bindPopup(popup_86dc604e5d7bf99ba05292540c38b6e3)
+        ;
+
+        
+    
+    
+            var circle_marker_0e22577b0c746fa8d18f728fff5865c7 = L.circleMarker(
+                [35.79647714285714, -89.13635214285715],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_30e0cf083dd807e26bb6ceb416c3fb30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36c54fd18b84bd6c9a076135a7b7ab51 = $(`<div id="html_36c54fd18b84bd6c9a076135a7b7ab51" style="width: 100.0%; height: 100.0%;">Crockett County: 13.36 student-teacher ratio</div>`)[0];
+                popup_30e0cf083dd807e26bb6ceb416c3fb30.setContent(html_36c54fd18b84bd6c9a076135a7b7ab51);
+            
+        
+
+        circle_marker_0e22577b0c746fa8d18f728fff5865c7.bindPopup(popup_30e0cf083dd807e26bb6ceb416c3fb30)
+        ;
+
+        
+    
+    
+            var circle_marker_ee5a2d06e4b11219caad11954a3bbeea = L.circleMarker(
+                [35.9387975, -85.01192116666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_3a0de837bc60aa7ee8b54ba595a75323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ecacac398027249c058f6af6402f6c3 = $(`<div id="html_7ecacac398027249c058f6af6402f6c3" style="width: 100.0%; height: 100.0%;">Cumberland County: 15.22 student-teacher ratio</div>`)[0];
+                popup_3a0de837bc60aa7ee8b54ba595a75323.setContent(html_7ecacac398027249c058f6af6402f6c3);
+            
+        
+
+        circle_marker_ee5a2d06e4b11219caad11954a3bbeea.bindPopup(popup_3a0de837bc60aa7ee8b54ba595a75323)
+        ;
+
+        
+    
+    
+            var circle_marker_f8aaf84db4eb392dd87175ad1c25d346 = L.circleMarker(
+                [36.15023310059171, -86.74099352662722],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_c51fe2ce1b030df69f0eff149b861b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d20755fd5b61da7c620d75c2beb99d8 = $(`<div id="html_0d20755fd5b61da7c620d75c2beb99d8" style="width: 100.0%; height: 100.0%;">Davidson County: 17.60 student-teacher ratio</div>`)[0];
+                popup_c51fe2ce1b030df69f0eff149b861b42.setContent(html_0d20755fd5b61da7c620d75c2beb99d8);
+            
+        
+
+        circle_marker_f8aaf84db4eb392dd87175ad1c25d346.bindPopup(popup_c51fe2ce1b030df69f0eff149b861b42)
+        ;
+
+        
+    
+    
+            var circle_marker_dd144a6ef0970d99a26a636896d3d0cf = L.circleMarker(
+                [35.972291166666665, -85.86159583333334],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_45264ee286ded8a712cd5329b8000141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f819a63a7cd29e043bd5c4e807da7f7 = $(`<div id="html_7f819a63a7cd29e043bd5c4e807da7f7" style="width: 100.0%; height: 100.0%;">DeKalb County: 11.56 student-teacher ratio</div>`)[0];
+                popup_45264ee286ded8a712cd5329b8000141.setContent(html_7f819a63a7cd29e043bd5c4e807da7f7);
+            
+        
+
+        circle_marker_dd144a6ef0970d99a26a636896d3d0cf.bindPopup(popup_45264ee286ded8a712cd5329b8000141)
+        ;
+
+        
+    
+    
+            var circle_marker_2e81f88d45aea94e76230a7a5839081f = L.circleMarker(
+                [35.606725, -88.126075],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_55eb8e5cc8bcc1a8f97783554789157c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bec19d45811ee16dae474702283cea9d = $(`<div id="html_bec19d45811ee16dae474702283cea9d" style="width: 100.0%; height: 100.0%;">Decatur County: 13.42 student-teacher ratio</div>`)[0];
+                popup_55eb8e5cc8bcc1a8f97783554789157c.setContent(html_bec19d45811ee16dae474702283cea9d);
+            
+        
+
+        circle_marker_2e81f88d45aea94e76230a7a5839081f.bindPopup(popup_55eb8e5cc8bcc1a8f97783554789157c)
+        ;
+
+        
+    
+    
+            var circle_marker_5b638e62d08b8c61ab3bf33d76bde2b4 = L.circleMarker(
+                [36.11441276470588, -87.33918688235293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_6af2a120bc6e5e3d108c2c2dde1f2400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef4babe690bdfdb7d5c4f830250f7cb2 = $(`<div id="html_ef4babe690bdfdb7d5c4f830250f7cb2" style="width: 100.0%; height: 100.0%;">Dickson County: 15.99 student-teacher ratio</div>`)[0];
+                popup_6af2a120bc6e5e3d108c2c2dde1f2400.setContent(html_ef4babe690bdfdb7d5c4f830250f7cb2);
+            
+        
+
+        circle_marker_5b638e62d08b8c61ab3bf33d76bde2b4.bindPopup(popup_6af2a120bc6e5e3d108c2c2dde1f2400)
+        ;
+
+        
+    
+    
+            var circle_marker_7460bd797da674d19a75cec50faa8856 = L.circleMarker(
+                [36.070896166666664, -89.34843266666667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7d5afae1323bda04763122d72ef97536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8412f36f1de2b0f58e063867247fcb0f = $(`<div id="html_8412f36f1de2b0f58e063867247fcb0f" style="width: 100.0%; height: 100.0%;">Dyer County: 14.66 student-teacher ratio</div>`)[0];
+                popup_7d5afae1323bda04763122d72ef97536.setContent(html_8412f36f1de2b0f58e063867247fcb0f);
+            
+        
+
+        circle_marker_7460bd797da674d19a75cec50faa8856.bindPopup(popup_7d5afae1323bda04763122d72ef97536)
+        ;
+
+        
+    
+    
+            var circle_marker_cdc0ff0355171aedddedf63f37be9944 = L.circleMarker(
+                [35.214923625, -89.417743875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_c8c35c1a0dbe41d7171515d122f6638e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b3b0094a9326359a3392d3b599ed68e = $(`<div id="html_1b3b0094a9326359a3392d3b599ed68e" style="width: 100.0%; height: 100.0%;">Fayette County: 15.83 student-teacher ratio</div>`)[0];
+                popup_c8c35c1a0dbe41d7171515d122f6638e.setContent(html_1b3b0094a9326359a3392d3b599ed68e);
+            
+        
+
+        circle_marker_cdc0ff0355171aedddedf63f37be9944.bindPopup(popup_c8c35c1a0dbe41d7171515d122f6638e)
+        ;
+
+        
+    
+    
+            var circle_marker_b8ca14d7556bac6798ad714f0a86c3a1 = L.circleMarker(
+                [36.365453571428574, -84.94011442857142],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_fed6a13734520603c19ce676509f1967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7946de1cdd4ae64c2dec4b539a064e = $(`<div id="html_0c7946de1cdd4ae64c2dec4b539a064e" style="width: 100.0%; height: 100.0%;">Fentress County: 13.28 student-teacher ratio</div>`)[0];
+                popup_fed6a13734520603c19ce676509f1967.setContent(html_0c7946de1cdd4ae64c2dec4b539a064e);
+            
+        
+
+        circle_marker_b8ca14d7556bac6798ad714f0a86c3a1.bindPopup(popup_fed6a13734520603c19ce676509f1967)
+        ;
+
+        
+    
+    
+            var circle_marker_24ed2746a0e18aea4c28c953c31e2f39 = L.circleMarker(
+                [35.20698191666667, -86.11606158333332],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_fb3266fa0b8c91470ec827d5b3363579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_457da897a50e2dccd218f096928184c1 = $(`<div id="html_457da897a50e2dccd218f096928184c1" style="width: 100.0%; height: 100.0%;">Franklin County: 14.68 student-teacher ratio</div>`)[0];
+                popup_fb3266fa0b8c91470ec827d5b3363579.setContent(html_457da897a50e2dccd218f096928184c1);
+            
+        
+
+        circle_marker_24ed2746a0e18aea4c28c953c31e2f39.bindPopup(popup_fb3266fa0b8c91470ec827d5b3363579)
+        ;
+
+        
+    
+    
+            var circle_marker_d477f2cfdb9af491a2a8abaf2d48f44a = L.circleMarker(
+                [35.96331919047619, -88.89361142857143],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7c4fb47d4089bf15d63911c1e0e1bf27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac3cb8d044962a290bb17deb22f2fe10 = $(`<div id="html_ac3cb8d044962a290bb17deb22f2fe10" style="width: 100.0%; height: 100.0%;">Gibson County: 14.37 student-teacher ratio</div>`)[0];
+                popup_7c4fb47d4089bf15d63911c1e0e1bf27.setContent(html_ac3cb8d044962a290bb17deb22f2fe10);
+            
+        
+
+        circle_marker_d477f2cfdb9af491a2a8abaf2d48f44a.bindPopup(popup_7c4fb47d4089bf15d63911c1e0e1bf27)
+        ;
+
+        
+    
+    
+            var circle_marker_f8ebc5401d7692374863cd8fabd4cf69 = L.circleMarker(
+                [35.194104875, -87.02592125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_56bd59e3dee18337f69bbe780ba2f8b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dfa45dad112650fb955f32820f34316 = $(`<div id="html_9dfa45dad112650fb955f32820f34316" style="width: 100.0%; height: 100.0%;">Giles County: 12.81 student-teacher ratio</div>`)[0];
+                popup_56bd59e3dee18337f69bbe780ba2f8b6.setContent(html_9dfa45dad112650fb955f32820f34316);
+            
+        
+
+        circle_marker_f8ebc5401d7692374863cd8fabd4cf69.bindPopup(popup_56bd59e3dee18337f69bbe780ba2f8b6)
+        ;
+
+        
+    
+    
+            var circle_marker_66e04257a8fb7033644058d884acb5c6 = L.circleMarker(
+                [36.28371711111111, -83.515425],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_fe8fc9eca23773b62ed10b0551344fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea8e2db22fdcb43c2178bb798631b3f7 = $(`<div id="html_ea8e2db22fdcb43c2178bb798631b3f7" style="width: 100.0%; height: 100.0%;">Grainger County: 10.97 student-teacher ratio</div>`)[0];
+                popup_fe8fc9eca23773b62ed10b0551344fa3.setContent(html_ea8e2db22fdcb43c2178bb798631b3f7);
+            
+        
+
+        circle_marker_66e04257a8fb7033644058d884acb5c6.bindPopup(popup_fe8fc9eca23773b62ed10b0551344fa3)
+        ;
+
+        
+    
+    
+            var circle_marker_2c2418d1c1975d0da88c8b90eb3fe6c5 = L.circleMarker(
+                [36.17190930769231, -82.84737726923078],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_9244da4ad4687352b741c193936e18ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cb126ef7ac6edbbbaee6bb85dc14a20 = $(`<div id="html_3cb126ef7ac6edbbbaee6bb85dc14a20" style="width: 100.0%; height: 100.0%;">Greene County: 12.53 student-teacher ratio</div>`)[0];
+                popup_9244da4ad4687352b741c193936e18ee.setContent(html_3cb126ef7ac6edbbbaee6bb85dc14a20);
+            
+        
+
+        circle_marker_2c2418d1c1975d0da88c8b90eb3fe6c5.bindPopup(popup_9244da4ad4687352b741c193936e18ee)
+        ;
+
+        
+    
+    
+            var circle_marker_9fd93fbad396ac8fb073d7cfe2427d17 = L.circleMarker(
+                [35.34670383333333, -85.72866833333335],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7492cb526b6b319a543e1073aa57fbb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0884239ca3eb29ef262b954d882566bb = $(`<div id="html_0884239ca3eb29ef262b954d882566bb" style="width: 100.0%; height: 100.0%;">Grundy County: 14.58 student-teacher ratio</div>`)[0];
+                popup_7492cb526b6b319a543e1073aa57fbb6.setContent(html_0884239ca3eb29ef262b954d882566bb);
+            
+        
+
+        circle_marker_9fd93fbad396ac8fb073d7cfe2427d17.bindPopup(popup_7492cb526b6b319a543e1073aa57fbb6)
+        ;
+
+        
+    
+    
+            var circle_marker_42f9d2aae47dda6f56998cd4824a95bb = L.circleMarker(
+                [36.215131166666666, -83.2737725],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_431da38c1a190a2731d125b1e98a2003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bb80e90ab007d50a9d23726f5642598 = $(`<div id="html_2bb80e90ab007d50a9d23726f5642598" style="width: 100.0%; height: 100.0%;">Hamblen County: 14.44 student-teacher ratio</div>`)[0];
+                popup_431da38c1a190a2731d125b1e98a2003.setContent(html_2bb80e90ab007d50a9d23726f5642598);
+            
+        
+
+        circle_marker_42f9d2aae47dda6f56998cd4824a95bb.bindPopup(popup_431da38c1a190a2731d125b1e98a2003)
+        ;
+
+        
+    
+    
+            var circle_marker_21e103f7a2143ff5b3f3ae06408c00e9 = L.circleMarker(
+                [35.09357665432099, -85.21932733333333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_18d236d069109bbc4e1ae5c1d0692dc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b640c54894aa9da6af5aa5d36e347475 = $(`<div id="html_b640c54894aa9da6af5aa5d36e347475" style="width: 100.0%; height: 100.0%;">Hamilton County: 15.06 student-teacher ratio</div>`)[0];
+                popup_18d236d069109bbc4e1ae5c1d0692dc1.setContent(html_b640c54894aa9da6af5aa5d36e347475);
+            
+        
+
+        circle_marker_21e103f7a2143ff5b3f3ae06408c00e9.bindPopup(popup_18d236d069109bbc4e1ae5c1d0692dc1)
+        ;
+
+        
+    
+    
+            var circle_marker_a1b3b2669cfe1ac7ea143a1f933bd3cd = L.circleMarker(
+                [36.534107, -83.21126266666666],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_4981d26b12b50bb505cb7c631dfe605f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e49de0f10504c5aa265ed67cc83679b4 = $(`<div id="html_e49de0f10504c5aa265ed67cc83679b4" style="width: 100.0%; height: 100.0%;">Hancock County: 13.16 student-teacher ratio</div>`)[0];
+                popup_4981d26b12b50bb505cb7c631dfe605f.setContent(html_e49de0f10504c5aa265ed67cc83679b4);
+            
+        
+
+        circle_marker_a1b3b2669cfe1ac7ea143a1f933bd3cd.bindPopup(popup_4981d26b12b50bb505cb7c631dfe605f)
+        ;
+
+        
+    
+    
+            var circle_marker_be97ab4382e1d433636a0d693b0058b9 = L.circleMarker(
+                [35.205691111111115, -88.99004644444443],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_c641c675e7f2d845b2bd5a833f7bf33b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59bc3dbeab77ac5cea79ed2138e4578e = $(`<div id="html_59bc3dbeab77ac5cea79ed2138e4578e" style="width: 100.0%; height: 100.0%;">Hardeman County: 13.69 student-teacher ratio</div>`)[0];
+                popup_c641c675e7f2d845b2bd5a833f7bf33b.setContent(html_59bc3dbeab77ac5cea79ed2138e4578e);
+            
+        
+
+        circle_marker_be97ab4382e1d433636a0d693b0058b9.bindPopup(popup_c641c675e7f2d845b2bd5a833f7bf33b)
+        ;
+
+        
+    
+    
+            var circle_marker_63f2fd5a45ff771a9ae4f75e7a8661ea = L.circleMarker(
+                [35.18912385714286, -88.269839],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_4a2a22dc59ab14459148c2ae498ce488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_019fae598e17b10667af5682b2ad6f00 = $(`<div id="html_019fae598e17b10667af5682b2ad6f00" style="width: 100.0%; height: 100.0%;">Hardin County: 13.79 student-teacher ratio</div>`)[0];
+                popup_4a2a22dc59ab14459148c2ae498ce488.setContent(html_019fae598e17b10667af5682b2ad6f00);
+            
+        
+
+        circle_marker_63f2fd5a45ff771a9ae4f75e7a8661ea.bindPopup(popup_4a2a22dc59ab14459148c2ae498ce488)
+        ;
+
+        
+    
+    
+            var circle_marker_7b85914be737d3a97812452f870507a0 = L.circleMarker(
+                [36.4466285, -82.90633795],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_c57043cca24c919d4ee595a3e8eb0f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_035e847c04fe1bf849d9c9840db0e685 = $(`<div id="html_035e847c04fe1bf849d9c9840db0e685" style="width: 100.0%; height: 100.0%;">Hawkins County: 17.41 student-teacher ratio</div>`)[0];
+                popup_c57043cca24c919d4ee595a3e8eb0f26.setContent(html_035e847c04fe1bf849d9c9840db0e685);
+            
+        
+
+        circle_marker_7b85914be737d3a97812452f870507a0.bindPopup(popup_c57043cca24c919d4ee595a3e8eb0f26)
+        ;
+
+        
+    
+    
+            var circle_marker_23c193b2063fb07a7b69bf876acc4ce1 = L.circleMarker(
+                [35.58849285714286, -89.2597657142857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_fbe972fa1cb2ecada79b282bb1b3982a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb60b6431d402db38da849ee417b4208 = $(`<div id="html_cb60b6431d402db38da849ee417b4208" style="width: 100.0%; height: 100.0%;">Haywood County: 11.81 student-teacher ratio</div>`)[0];
+                popup_fbe972fa1cb2ecada79b282bb1b3982a.setContent(html_cb60b6431d402db38da849ee417b4208);
+            
+        
+
+        circle_marker_23c193b2063fb07a7b69bf876acc4ce1.bindPopup(popup_fbe972fa1cb2ecada79b282bb1b3982a)
+        ;
+
+        
+    
+    
+            var circle_marker_d5baa57678160546c3e4fa2648c54e94 = L.circleMarker(
+                [35.62685381818182, -88.37967236363637],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_2c0307b81a26bcfe8250b64e4563e9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0212d09cf6843630fba9051c4f82f8d = $(`<div id="html_c0212d09cf6843630fba9051c4f82f8d" style="width: 100.0%; height: 100.0%;">Henderson County: 14.68 student-teacher ratio</div>`)[0];
+                popup_2c0307b81a26bcfe8250b64e4563e9f8.setContent(html_c0212d09cf6843630fba9051c4f82f8d);
+            
+        
+
+        circle_marker_d5baa57678160546c3e4fa2648c54e94.bindPopup(popup_2c0307b81a26bcfe8250b64e4563e9f8)
+        ;
+
+        
+    
+    
+            var circle_marker_a1c738921757d423c77fa1428c10581d = L.circleMarker(
+                [36.3036476, -88.3135395],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_ff18d8c21ca936f579c54d0fbc949518 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63442113b46ae22a96acea56fe847521 = $(`<div id="html_63442113b46ae22a96acea56fe847521" style="width: 100.0%; height: 100.0%;">Henry County: 13.53 student-teacher ratio</div>`)[0];
+                popup_ff18d8c21ca936f579c54d0fbc949518.setContent(html_63442113b46ae22a96acea56fe847521);
+            
+        
+
+        circle_marker_a1c738921757d423c77fa1428c10581d.bindPopup(popup_ff18d8c21ca936f579c54d0fbc949518)
+        ;
+
+        
+    
+    
+            var circle_marker_119b99b8133932c1ef22e15acdfb9e38 = L.circleMarker(
+                [35.85313766666667, -87.38984377777778],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_0729b8dc43daa502123f0b9f5c79df93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7337ffdcf679274e0581006d945b40eb = $(`<div id="html_7337ffdcf679274e0581006d945b40eb" style="width: 100.0%; height: 100.0%;">Hickman County: 13.20 student-teacher ratio</div>`)[0];
+                popup_0729b8dc43daa502123f0b9f5c79df93.setContent(html_7337ffdcf679274e0581006d945b40eb);
+            
+        
+
+        circle_marker_119b99b8133932c1ef22e15acdfb9e38.bindPopup(popup_0729b8dc43daa502123f0b9f5c79df93)
+        ;
+
+        
+    
+    
+            var circle_marker_07ef04a43c14f7c3f67727e518b89d6f = L.circleMarker(
+                [36.32681316666667, -87.69372683333332],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_9a11142e101d99b31ffeac828d816ad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb623f8116d6ad59d35e90a1f9bf5e41 = $(`<div id="html_bb623f8116d6ad59d35e90a1f9bf5e41" style="width: 100.0%; height: 100.0%;">Houston County: 9.64 student-teacher ratio</div>`)[0];
+                popup_9a11142e101d99b31ffeac828d816ad4.setContent(html_bb623f8116d6ad59d35e90a1f9bf5e41);
+            
+        
+
+        circle_marker_07ef04a43c14f7c3f67727e518b89d6f.bindPopup(popup_9a11142e101d99b31ffeac828d816ad4)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca5bdf9855d69a2a84c76981bb65d76 = L.circleMarker(
+                [36.08101583333333, -87.77176533333333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_86b779139152ebadf7d3ce78ea2304c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd7188fa77bdfdf74ce5459f4d147b7d = $(`<div id="html_dd7188fa77bdfdf74ce5459f4d147b7d" style="width: 100.0%; height: 100.0%;">Humphreys County: 14.08 student-teacher ratio</div>`)[0];
+                popup_86b779139152ebadf7d3ce78ea2304c7.setContent(html_dd7188fa77bdfdf74ce5459f4d147b7d);
+            
+        
+
+        circle_marker_8ca5bdf9855d69a2a84c76981bb65d76.bindPopup(popup_86b779139152ebadf7d3ce78ea2304c7)
+        ;
+
+        
+    
+    
+            var circle_marker_fec9583d512983ffd476d2f4ea47cf9b = L.circleMarker(
+                [36.35886625, -85.62862774999999],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_cd0af5b8eaa57bd85825e224e99670ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c30858a55584bd63421d4e365f3e404e = $(`<div id="html_c30858a55584bd63421d4e365f3e404e" style="width: 100.0%; height: 100.0%;">Jackson County: 14.43 student-teacher ratio</div>`)[0];
+                popup_cd0af5b8eaa57bd85825e224e99670ba.setContent(html_c30858a55584bd63421d4e365f3e404e);
+            
+        
+
+        circle_marker_fec9583d512983ffd476d2f4ea47cf9b.bindPopup(popup_cd0af5b8eaa57bd85825e224e99670ba)
+        ;
+
+        
+    
+    
+            var circle_marker_edd2a6edfcccc56690acc2fd868d9366 = L.circleMarker(
+                [36.06903042857143, -83.48976707142857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_b2e977f4378fe9fbc65c33bbdf99b8da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5422920158f492e7f088ad5dac58f37 = $(`<div id="html_d5422920158f492e7f088ad5dac58f37" style="width: 100.0%; height: 100.0%;">Jefferson County: 14.47 student-teacher ratio</div>`)[0];
+                popup_b2e977f4378fe9fbc65c33bbdf99b8da.setContent(html_d5422920158f492e7f088ad5dac58f37);
+            
+        
+
+        circle_marker_edd2a6edfcccc56690acc2fd868d9366.bindPopup(popup_b2e977f4378fe9fbc65c33bbdf99b8da)
+        ;
+
+        
+    
+    
+            var circle_marker_337baae545d64b6a78ae310eeb26a24a = L.circleMarker(
+                [36.47610766666667, -81.816644],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_dc9645685c93b8d5d624c484ea8d166c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c114366af52f75f2df04d86caf50252b = $(`<div id="html_c114366af52f75f2df04d86caf50252b" style="width: 100.0%; height: 100.0%;">Johnson County: 12.26 student-teacher ratio</div>`)[0];
+                popup_dc9645685c93b8d5d624c484ea8d166c.setContent(html_c114366af52f75f2df04d86caf50252b);
+            
+        
+
+        circle_marker_337baae545d64b6a78ae310eeb26a24a.bindPopup(popup_dc9645685c93b8d5d624c484ea8d166c)
+        ;
+
+        
+    
+    
+            var circle_marker_7e9299d86d8db8c2658cddc16483f0b7 = L.circleMarker(
+                [35.983843144329896, -83.95908657731958],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_d7bc86b11e88e463d98bd372874622b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f2436a10494f381eff29640d604bacf = $(`<div id="html_2f2436a10494f381eff29640d604bacf" style="width: 100.0%; height: 100.0%;">Knox County: 13.82 student-teacher ratio</div>`)[0];
+                popup_d7bc86b11e88e463d98bd372874622b1.setContent(html_2f2436a10494f381eff29640d604bacf);
+            
+        
+
+        circle_marker_7e9299d86d8db8c2658cddc16483f0b7.bindPopup(popup_d7bc86b11e88e463d98bd372874622b1)
+        ;
+
+        
+    
+    
+            var circle_marker_664dca7f507f96ea4edb8da17591b097 = L.circleMarker(
+                [36.339666666666666, -89.47593333333333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7bfd091df230acfe6e72da915dfa87f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06bc39e55be97aa9d96c0d6c69918071 = $(`<div id="html_06bc39e55be97aa9d96c0d6c69918071" style="width: 100.0%; height: 100.0%;">Lake County: 11.71 student-teacher ratio</div>`)[0];
+                popup_7bfd091df230acfe6e72da915dfa87f3.setContent(html_06bc39e55be97aa9d96c0d6c69918071);
+            
+        
+
+        circle_marker_664dca7f507f96ea4edb8da17591b097.bindPopup(popup_7bfd091df230acfe6e72da915dfa87f3)
+        ;
+
+        
+    
+    
+            var circle_marker_9b949b888902ee82eb10002fb2bc2c62 = L.circleMarker(
+                [35.794889, -89.4888217142857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_cadda79d880bb7fc8621347aafdbcf47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad2fe8b1177d446677f9bba749b32390 = $(`<div id="html_ad2fe8b1177d446677f9bba749b32390" style="width: 100.0%; height: 100.0%;">Lauderdale County: 13.99 student-teacher ratio</div>`)[0];
+                popup_cadda79d880bb7fc8621347aafdbcf47.setContent(html_ad2fe8b1177d446677f9bba749b32390);
+            
+        
+
+        circle_marker_9b949b888902ee82eb10002fb2bc2c62.bindPopup(popup_cadda79d880bb7fc8621347aafdbcf47)
+        ;
+
+        
+    
+    
+            var circle_marker_2595dd7c4758da95d7c7065296704949 = L.circleMarker(
+                [35.244848, -87.33822192857143],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_c3da3a026a755c713f10ff0d4f919335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd9efa21f915802772b34fe8c1b41c8f = $(`<div id="html_dd9efa21f915802772b34fe8c1b41c8f" style="width: 100.0%; height: 100.0%;">Lawrence County: 14.77 student-teacher ratio</div>`)[0];
+                popup_c3da3a026a755c713f10ff0d4f919335.setContent(html_dd9efa21f915802772b34fe8c1b41c8f);
+            
+        
+
+        circle_marker_2595dd7c4758da95d7c7065296704949.bindPopup(popup_c3da3a026a755c713f10ff0d4f919335)
+        ;
+
+        
+    
+    
+            var circle_marker_95cf6b9e5b53b02268bae4af44f41f20 = L.circleMarker(
+                [35.54502775, -87.5595655],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_519f4412870620589c64837876841b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08b12447466b225b38fcf3a51803efb6 = $(`<div id="html_08b12447466b225b38fcf3a51803efb6" style="width: 100.0%; height: 100.0%;">Lewis County: 13.80 student-teacher ratio</div>`)[0];
+                popup_519f4412870620589c64837876841b86.setContent(html_08b12447466b225b38fcf3a51803efb6);
+            
+        
+
+        circle_marker_95cf6b9e5b53b02268bae4af44f41f20.bindPopup(popup_519f4412870620589c64837876841b86)
+        ;
+
+        
+    
+    
+            var circle_marker_1617874cc8923b9068b2023cf0db5a3f = L.circleMarker(
+                [35.12053136363637, -86.58345118181818],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_654849d354e15156d0c3bc23e372dd79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_002fb301ee669b5f6ba659025d910971 = $(`<div id="html_002fb301ee669b5f6ba659025d910971" style="width: 100.0%; height: 100.0%;">Lincoln County: 14.93 student-teacher ratio</div>`)[0];
+                popup_654849d354e15156d0c3bc23e372dd79.setContent(html_002fb301ee669b5f6ba659025d910971);
+            
+        
+
+        circle_marker_1617874cc8923b9068b2023cf0db5a3f.bindPopup(popup_654849d354e15156d0c3bc23e372dd79)
+        ;
+
+        
+    
+    
+            var circle_marker_ec309d9624a1a7506c84671cfeb5ba2e = L.circleMarker(
+                [35.76252061538462, -84.29841338461537],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_f810e4cdad0d6cee0dc5e3376d634d77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a4ce17679a58420c1ef6c4adf72326a = $(`<div id="html_2a4ce17679a58420c1ef6c4adf72326a" style="width: 100.0%; height: 100.0%;">Loudon County: 14.36 student-teacher ratio</div>`)[0];
+                popup_f810e4cdad0d6cee0dc5e3376d634d77.setContent(html_2a4ce17679a58420c1ef6c4adf72326a);
+            
+        
+
+        circle_marker_ec309d9624a1a7506c84671cfeb5ba2e.bindPopup(popup_f810e4cdad0d6cee0dc5e3376d634d77)
+        ;
+
+        
+    
+    
+            var circle_marker_25fd6056edd701c3d48cd03c0fc3bcc0 = L.circleMarker(
+                [36.5219875, -85.9925375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_d29eaf032ca251a46b413c2a68fa7252 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04b1eb1bb29989e5f3609a2b26936e49 = $(`<div id="html_04b1eb1bb29989e5f3609a2b26936e49" style="width: 100.0%; height: 100.0%;">Macon County: 16.23 student-teacher ratio</div>`)[0];
+                popup_d29eaf032ca251a46b413c2a68fa7252.setContent(html_04b1eb1bb29989e5f3609a2b26936e49);
+            
+        
+
+        circle_marker_25fd6056edd701c3d48cd03c0fc3bcc0.bindPopup(popup_d29eaf032ca251a46b413c2a68fa7252)
+        ;
+
+        
+    
+    
+            var circle_marker_ffeb313e34fa3aa3fee30ba66c8131d6 = L.circleMarker(
+                [35.63711059259259, -88.81124533333333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_f32a3c65bc1787f6a194881e5fb8d72f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b56c2d7286db72de8212b8976d1a897 = $(`<div id="html_7b56c2d7286db72de8212b8976d1a897" style="width: 100.0%; height: 100.0%;">Madison County: 16.83 student-teacher ratio</div>`)[0];
+                popup_f32a3c65bc1787f6a194881e5fb8d72f.setContent(html_7b56c2d7286db72de8212b8976d1a897);
+            
+        
+
+        circle_marker_ffeb313e34fa3aa3fee30ba66c8131d6.bindPopup(popup_f32a3c65bc1787f6a194881e5fb8d72f)
+        ;
+
+        
+    
+    
+            var circle_marker_13845b94f6fbc7f2cfc2b919154d8372 = L.circleMarker(
+                [35.09828592307692, -85.63914584615385],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_0be4f5ab43aa52f76d3ade9310eb3824 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fea88b275aa3544b242611f3b707e533 = $(`<div id="html_fea88b275aa3544b242611f3b707e533" style="width: 100.0%; height: 100.0%;">Marion County: 12.26 student-teacher ratio</div>`)[0];
+                popup_0be4f5ab43aa52f76d3ade9310eb3824.setContent(html_fea88b275aa3544b242611f3b707e533);
+            
+        
+
+        circle_marker_13845b94f6fbc7f2cfc2b919154d8372.bindPopup(popup_0be4f5ab43aa52f76d3ade9310eb3824)
+        ;
+
+        
+    
+    
+            var circle_marker_c19aa16e599b379d5016857535fcd4c5 = L.circleMarker(
+                [35.493949199999996, -86.78271170000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_e8a8e8ebdd01a8fb3b98c7c246272761 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c22b207f171e794d11d5bcadab44b29 = $(`<div id="html_8c22b207f171e794d11d5bcadab44b29" style="width: 100.0%; height: 100.0%;">Marshall County: 16.08 student-teacher ratio</div>`)[0];
+                popup_e8a8e8ebdd01a8fb3b98c7c246272761.setContent(html_8c22b207f171e794d11d5bcadab44b29);
+            
+        
+
+        circle_marker_c19aa16e599b379d5016857535fcd4c5.bindPopup(popup_e8a8e8ebdd01a8fb3b98c7c246272761)
+        ;
+
+        
+    
+    
+            var circle_marker_ef85e8308cf3ea8021ab340f9eaf68e7 = L.circleMarker(
+                [35.631935391304346, -87.04840773913044],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_b5f869520f2fbcd1b3d2fda4cb1f7934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76f2f76f4b645a966a84eacf81a43d7d = $(`<div id="html_76f2f76f4b645a966a84eacf81a43d7d" style="width: 100.0%; height: 100.0%;">Maury County: 14.94 student-teacher ratio</div>`)[0];
+                popup_b5f869520f2fbcd1b3d2fda4cb1f7934.setContent(html_76f2f76f4b645a966a84eacf81a43d7d);
+            
+        
+
+        circle_marker_ef85e8308cf3ea8021ab340f9eaf68e7.bindPopup(popup_b5f869520f2fbcd1b3d2fda4cb1f7934)
+        ;
+
+        
+    
+    
+            var circle_marker_f58278a0f860d1b05fec262b61361eb3 = L.circleMarker(
+                [35.418183666666664, -84.60541633333334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_559b0c0f2a94f65aee178acca396703f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_170119bfec60732fb6eed7afc799d2f3 = $(`<div id="html_170119bfec60732fb6eed7afc799d2f3" style="width: 100.0%; height: 100.0%;">McMinn County: 16.02 student-teacher ratio</div>`)[0];
+                popup_559b0c0f2a94f65aee178acca396703f.setContent(html_170119bfec60732fb6eed7afc799d2f3);
+            
+        
+
+        circle_marker_f58278a0f860d1b05fec262b61361eb3.bindPopup(popup_559b0c0f2a94f65aee178acca396703f)
+        ;
+
+        
+    
+    
+            var circle_marker_c15ef0e373c1232b5edc70b4d12d1c47 = L.circleMarker(
+                [35.1632743, -88.5355639],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_15f31aaf90bbf086bb30586690f39c12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_912004b2578867b7943c52c703bd85ba = $(`<div id="html_912004b2578867b7943c52c703bd85ba" style="width: 100.0%; height: 100.0%;">McNairy County: 10.57 student-teacher ratio</div>`)[0];
+                popup_15f31aaf90bbf086bb30586690f39c12.setContent(html_912004b2578867b7943c52c703bd85ba);
+            
+        
+
+        circle_marker_c15ef0e373c1232b5edc70b4d12d1c47.bindPopup(popup_15f31aaf90bbf086bb30586690f39c12)
+        ;
+
+        
+    
+    
+            var circle_marker_22a129bea41f8441063353808ae4ebe9 = L.circleMarker(
+                [35.50792025, -84.80098575],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_4cb767516dcc975b1a5360eac8082b78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0621bf25f62f84fb15db4323189479c0 = $(`<div id="html_0621bf25f62f84fb15db4323189479c0" style="width: 100.0%; height: 100.0%;">Meigs County: 14.43 student-teacher ratio</div>`)[0];
+                popup_4cb767516dcc975b1a5360eac8082b78.setContent(html_0621bf25f62f84fb15db4323189479c0);
+            
+        
+
+        circle_marker_22a129bea41f8441063353808ae4ebe9.bindPopup(popup_4cb767516dcc975b1a5360eac8082b78)
+        ;
+
+        
+    
+    
+            var circle_marker_408ee3d15028971afff5d04cf4a9e60f = L.circleMarker(
+                [35.50420841176471, -84.36063747058823],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_66c3ff0c4562628f67f6780b646629a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8470211f305e7b5fc4276c9c0e5e6e5 = $(`<div id="html_f8470211f305e7b5fc4276c9c0e5e6e5" style="width: 100.0%; height: 100.0%;">Monroe County: 17.09 student-teacher ratio</div>`)[0];
+                popup_66c3ff0c4562628f67f6780b646629a2.setContent(html_f8470211f305e7b5fc4276c9c0e5e6e5);
+            
+        
+
+        circle_marker_408ee3d15028971afff5d04cf4a9e60f.bindPopup(popup_66c3ff0c4562628f67f6780b646629a2)
+        ;
+
+        
+    
+    
+            var circle_marker_3e25dd1521c77a57f66cf6dca62bd1b1 = L.circleMarker(
+                [36.54922069767442, -87.3412638372093],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7437c02fde19f8a3b4db1473f5715893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f13ca2fd539f85c2dd7ebd820f98b32 = $(`<div id="html_6f13ca2fd539f85c2dd7ebd820f98b32" style="width: 100.0%; height: 100.0%;">Montgomery County: 17.11 student-teacher ratio</div>`)[0];
+                popup_7437c02fde19f8a3b4db1473f5715893.setContent(html_6f13ca2fd539f85c2dd7ebd820f98b32);
+            
+        
+
+        circle_marker_3e25dd1521c77a57f66cf6dca62bd1b1.bindPopup(popup_7437c02fde19f8a3b4db1473f5715893)
+        ;
+
+        
+    
+    
+            var circle_marker_afed55aff372c543db3853af74765901 = L.circleMarker(
+                [35.2949285, -86.3668825],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_9b0f1390beefad4005a2cd3f7197f82b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9875111c9af6c531b514927513a57156 = $(`<div id="html_9875111c9af6c531b514927513a57156" style="width: 100.0%; height: 100.0%;">Moore County: 13.64 student-teacher ratio</div>`)[0];
+                popup_9b0f1390beefad4005a2cd3f7197f82b.setContent(html_9875111c9af6c531b514927513a57156);
+            
+        
+
+        circle_marker_afed55aff372c543db3853af74765901.bindPopup(popup_9b0f1390beefad4005a2cd3f7197f82b)
+        ;
+
+        
+    
+    
+            var circle_marker_a7c98bba657f3d19089fc6d4b10307c3 = L.circleMarker(
+                [36.0916875, -84.5486125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_6861e7f7f875314099390c55fa58db35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_821434760c647ed1046b59e57711b620 = $(`<div id="html_821434760c647ed1046b59e57711b620" style="width: 100.0%; height: 100.0%;">Morgan County: 14.92 student-teacher ratio</div>`)[0];
+                popup_6861e7f7f875314099390c55fa58db35.setContent(html_821434760c647ed1046b59e57711b620);
+            
+        
+
+        circle_marker_a7c98bba657f3d19089fc6d4b10307c3.bindPopup(popup_6861e7f7f875314099390c55fa58db35)
+        ;
+
+        
+    
+    
+            var circle_marker_aa6793abde0dc20ca490221a4612824c = L.circleMarker(
+                [36.407096, -89.073545],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_d6e5a390b7ae679f8c3befb365550335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57f789dfe962691c1328bbb197b543cc = $(`<div id="html_57f789dfe962691c1328bbb197b543cc" style="width: 100.0%; height: 100.0%;">Obion County: 12.82 student-teacher ratio</div>`)[0];
+                popup_d6e5a390b7ae679f8c3befb365550335.setContent(html_57f789dfe962691c1328bbb197b543cc);
+            
+        
+
+        circle_marker_aa6793abde0dc20ca490221a4612824c.bindPopup(popup_d6e5a390b7ae679f8c3befb365550335)
+        ;
+
+        
+    
+    
+            var circle_marker_f1e6387ec807a26f8ac193d048cfd63f = L.circleMarker(
+                [36.36076075, -85.32757075],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_65bff67e6ea2dc50e6ea5b10748fef05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaf00f10abeddd3f26baaf1dbcf53706 = $(`<div id="html_aaf00f10abeddd3f26baaf1dbcf53706" style="width: 100.0%; height: 100.0%;">Overton County: 14.41 student-teacher ratio</div>`)[0];
+                popup_65bff67e6ea2dc50e6ea5b10748fef05.setContent(html_aaf00f10abeddd3f26baaf1dbcf53706);
+            
+        
+
+        circle_marker_f1e6387ec807a26f8ac193d048cfd63f.bindPopup(popup_65bff67e6ea2dc50e6ea5b10748fef05)
+        ;
+
+        
+    
+    
+            var circle_marker_7cee70935f45d7bd8d10a7096f7d30bb = L.circleMarker(
+                [35.6412956, -87.828574],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_f13a3e38ea0a33f2f5182cc9c7f99b91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec006bc5671b6b8803a2727c24daf50 = $(`<div id="html_eec006bc5671b6b8803a2727c24daf50" style="width: 100.0%; height: 100.0%;">Perry County: 15.98 student-teacher ratio</div>`)[0];
+                popup_f13a3e38ea0a33f2f5182cc9c7f99b91.setContent(html_eec006bc5671b6b8803a2727c24daf50);
+            
+        
+
+        circle_marker_7cee70935f45d7bd8d10a7096f7d30bb.bindPopup(popup_f13a3e38ea0a33f2f5182cc9c7f99b91)
+        ;
+
+        
+    
+    
+            var circle_marker_985c23f0264a716d049bf58934c53a91 = L.circleMarker(
+                [36.576187000000004, -85.134499],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_4bf3b623561898efcfafd24b9ebe25c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_989a47fa3e932742f67288a6c41db364 = $(`<div id="html_989a47fa3e932742f67288a6c41db364" style="width: 100.0%; height: 100.0%;">Pickett County: 14.01 student-teacher ratio</div>`)[0];
+                popup_4bf3b623561898efcfafd24b9ebe25c8.setContent(html_989a47fa3e932742f67288a6c41db364);
+            
+        
+
+        circle_marker_985c23f0264a716d049bf58934c53a91.bindPopup(popup_4bf3b623561898efcfafd24b9ebe25c8)
+        ;
+
+        
+    
+    
+            var circle_marker_8f402c9c239ca37f091b1fadcd1d3b81 = L.circleMarker(
+                [35.12200485714286, -84.5815242857143],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_b9eebed53ec4308d6e0b07c502a549c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_985b7721d2aa4de50b2ee7f77e46a782 = $(`<div id="html_985b7721d2aa4de50b2ee7f77e46a782" style="width: 100.0%; height: 100.0%;">Polk County: 12.87 student-teacher ratio</div>`)[0];
+                popup_b9eebed53ec4308d6e0b07c502a549c8.setContent(html_985b7721d2aa4de50b2ee7f77e46a782);
+            
+        
+
+        circle_marker_8f402c9c239ca37f091b1fadcd1d3b81.bindPopup(popup_b9eebed53ec4308d6e0b07c502a549c8)
+        ;
+
+        
+    
+    
+            var circle_marker_2c82eacc916578b72b86732db6fbe83a = L.circleMarker(
+                [36.16274077272727, -85.49443263636364],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_1578639865bd5cd4182efc5f2b52158a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe1ab6644a7d66d39839cc817d2fbfa7 = $(`<div id="html_fe1ab6644a7d66d39839cc817d2fbfa7" style="width: 100.0%; height: 100.0%;">Putnam County: 21.05 student-teacher ratio</div>`)[0];
+                popup_1578639865bd5cd4182efc5f2b52158a.setContent(html_fe1ab6644a7d66d39839cc817d2fbfa7);
+            
+        
+
+        circle_marker_2c82eacc916578b72b86732db6fbe83a.bindPopup(popup_1578639865bd5cd4182efc5f2b52158a)
+        ;
+
+        
+    
+    
+            var circle_marker_4cf1e56bbb1a40c1c55b57fab7049b7d = L.circleMarker(
+                [35.560498625, -84.960705875],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_9a76b239fdf6788f9c51505572e3aff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64f4d43c498a1f7a7a0705b3392553b0 = $(`<div id="html_64f4d43c498a1f7a7a0705b3392553b0" style="width: 100.0%; height: 100.0%;">Rhea County: 14.74 student-teacher ratio</div>`)[0];
+                popup_9a76b239fdf6788f9c51505572e3aff6.setContent(html_64f4d43c498a1f7a7a0705b3392553b0);
+            
+        
+
+        circle_marker_4cf1e56bbb1a40c1c55b57fab7049b7d.bindPopup(popup_9a76b239fdf6788f9c51505572e3aff6)
+        ;
+
+        
+    
+    
+            var circle_marker_c25d2a3e4c89b23f33ccb08bde79fd28 = L.circleMarker(
+                [35.89138255555556, -84.53563655555556],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_dd1ef72b7ecea8427a05f6d4f13e06f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d58129bd34c420075df096e6b91e58 = $(`<div id="html_35d58129bd34c420075df096e6b91e58" style="width: 100.0%; height: 100.0%;">Roane County: 13.56 student-teacher ratio</div>`)[0];
+                popup_dd1ef72b7ecea8427a05f6d4f13e06f4.setContent(html_35d58129bd34c420075df096e6b91e58);
+            
+        
+
+        circle_marker_c25d2a3e4c89b23f33ccb08bde79fd28.bindPopup(popup_dd1ef72b7ecea8427a05f6d4f13e06f4)
+        ;
+
+        
+    
+    
+            var circle_marker_068185f08600baa68e9c39919996821c = L.circleMarker(
+                [36.48839848, -86.83001032],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_cf67c2b2ca824717a63291ae7537a2af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d0c8e7ceeb721e5f1b72648fc8f3a55 = $(`<div id="html_0d0c8e7ceeb721e5f1b72648fc8f3a55" style="width: 100.0%; height: 100.0%;">Robertson County: 17.57 student-teacher ratio</div>`)[0];
+                popup_cf67c2b2ca824717a63291ae7537a2af.setContent(html_0d0c8e7ceeb721e5f1b72648fc8f3a55);
+            
+        
+
+        circle_marker_068185f08600baa68e9c39919996821c.bindPopup(popup_cf67c2b2ca824717a63291ae7537a2af)
+        ;
+
+        
+    
+    
+            var circle_marker_136582b7c44ab6c4c45626f6af93b1df = L.circleMarker(
+                [35.884757125, -86.45247425],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_d4e62e31afb778053922872a9903c365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a08bb8224a8af78f7c9449a2395e31c = $(`<div id="html_5a08bb8224a8af78f7c9449a2395e31c" style="width: 100.0%; height: 100.0%;">Rutherford County: 14.91 student-teacher ratio</div>`)[0];
+                popup_d4e62e31afb778053922872a9903c365.setContent(html_5a08bb8224a8af78f7c9449a2395e31c);
+            
+        
+
+        circle_marker_136582b7c44ab6c4c45626f6af93b1df.bindPopup(popup_d4e62e31afb778053922872a9903c365)
+        ;
+
+        
+    
+    
+            var circle_marker_d1bde910c28fe20e5903da7128bd6348 = L.circleMarker(
+                [36.4532354, -84.500952],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_113d1bb29d7e940a9532ab7a6a16de27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3ff13fcdbd9ccbd4cc29c9ed6db5145 = $(`<div id="html_a3ff13fcdbd9ccbd4cc29c9ed6db5145" style="width: 100.0%; height: 100.0%;">Scott County: 14.47 student-teacher ratio</div>`)[0];
+                popup_113d1bb29d7e940a9532ab7a6a16de27.setContent(html_a3ff13fcdbd9ccbd4cc29c9ed6db5145);
+            
+        
+
+        circle_marker_d1bde910c28fe20e5903da7128bd6348.bindPopup(popup_113d1bb29d7e940a9532ab7a6a16de27)
+        ;
+
+        
+    
+    
+            var circle_marker_bedefd7835f2061b0bcb047b9bf7980c = L.circleMarker(
+                [35.35809066666667, -85.40141933333332],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_ec7a94a7ee70ae99bc0cafda01ee30c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563c89605993b57b0b059df71e063e2a = $(`<div id="html_563c89605993b57b0b059df71e063e2a" style="width: 100.0%; height: 100.0%;">Sequatchie County: 14.99 student-teacher ratio</div>`)[0];
+                popup_ec7a94a7ee70ae99bc0cafda01ee30c6.setContent(html_563c89605993b57b0b059df71e063e2a);
+            
+        
+
+        circle_marker_bedefd7835f2061b0bcb047b9bf7980c.bindPopup(popup_ec7a94a7ee70ae99bc0cafda01ee30c6)
+        ;
+
+        
+    
+    
+            var circle_marker_a3dee97dc83e73864e2adfaf7d68a1e2 = L.circleMarker(
+                [35.84886678125, -83.568649125],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_24baad6b9efad0a747395b7e3bcad6cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4f71ff81daccc42d61bc692e50f525e = $(`<div id="html_a4f71ff81daccc42d61bc692e50f525e" style="width: 100.0%; height: 100.0%;">Sevier County: 13.02 student-teacher ratio</div>`)[0];
+                popup_24baad6b9efad0a747395b7e3bcad6cb.setContent(html_a4f71ff81daccc42d61bc692e50f525e);
+            
+        
+
+        circle_marker_a3dee97dc83e73864e2adfaf7d68a1e2.bindPopup(popup_24baad6b9efad0a747395b7e3bcad6cb)
+        ;
+
+        
+    
+    
+            var circle_marker_2790df6077510410adf76b46c437027e = L.circleMarker(
+                [35.12481693140794, -89.92352577617329],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_8ed3a29ac254c03db0d187e10f73dffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6445cee064e033a332c6ffa93a22e11b = $(`<div id="html_6445cee064e033a332c6ffa93a22e11b" style="width: 100.0%; height: 100.0%;">Shelby County: 16.75 student-teacher ratio</div>`)[0];
+                popup_8ed3a29ac254c03db0d187e10f73dffb.setContent(html_6445cee064e033a332c6ffa93a22e11b);
+            
+        
+
+        circle_marker_2790df6077510410adf76b46c437027e.bindPopup(popup_8ed3a29ac254c03db0d187e10f73dffb)
+        ;
+
+        
+    
+    
+            var circle_marker_a529b3a0811f39a7b58c37ae150b3221 = L.circleMarker(
+                [36.229118222222226, -85.94706211111111],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_37d9570b1db5ddaed5835231b81d2ea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe4773fd1252bc1793a44b37e43033e0 = $(`<div id="html_fe4773fd1252bc1793a44b37e43033e0" style="width: 100.0%; height: 100.0%;">Smith County: 15.12 student-teacher ratio</div>`)[0];
+                popup_37d9570b1db5ddaed5835231b81d2ea5.setContent(html_fe4773fd1252bc1793a44b37e43033e0);
+            
+        
+
+        circle_marker_a529b3a0811f39a7b58c37ae150b3221.bindPopup(popup_37d9570b1db5ddaed5835231b81d2ea5)
+        ;
+
+        
+    
+    
+            var circle_marker_bde9469ae2b04b182d6038d7d1559d7c = L.circleMarker(
+                [36.5261295, -87.79851666666667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_b7cd77f52cd183c3b5d67ffaf00856a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d1d1cc265de157ef6a80b704dd24bf0 = $(`<div id="html_4d1d1cc265de157ef6a80b704dd24bf0" style="width: 100.0%; height: 100.0%;">Stewart County: 10.79 student-teacher ratio</div>`)[0];
+                popup_b7cd77f52cd183c3b5d67ffaf00856a5.setContent(html_4d1d1cc265de157ef6a80b704dd24bf0);
+            
+        
+
+        circle_marker_bde9469ae2b04b182d6038d7d1559d7c.bindPopup(popup_b7cd77f52cd183c3b5d67ffaf00856a5)
+        ;
+
+        
+    
+    
+            var circle_marker_8a37d7f710c28433441dbff2e448aa32 = L.circleMarker(
+                [36.5321797027027, -82.38432932432433],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_eefc6bbd0183e0d9d8efd6faa3192875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33d8132e3cb46929390b84452c0e3aa6 = $(`<div id="html_33d8132e3cb46929390b84452c0e3aa6" style="width: 100.0%; height: 100.0%;">Sullivan County: 13.38 student-teacher ratio</div>`)[0];
+                popup_eefc6bbd0183e0d9d8efd6faa3192875.setContent(html_33d8132e3cb46929390b84452c0e3aa6);
+            
+        
+
+        circle_marker_8a37d7f710c28433441dbff2e448aa32.bindPopup(popup_eefc6bbd0183e0d9d8efd6faa3192875)
+        ;
+
+        
+    
+    
+            var circle_marker_c3d80f8f0762d7c84fac32396effee8f = L.circleMarker(
+                [36.41540092307692, -86.5297173846154],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7f567b04f7933f09a7cc4fd00c9b7f4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdded67750f00565d75e74f6a5f35aad = $(`<div id="html_cdded67750f00565d75e74f6a5f35aad" style="width: 100.0%; height: 100.0%;">Sumner County: 15.07 student-teacher ratio</div>`)[0];
+                popup_7f567b04f7933f09a7cc4fd00c9b7f4a.setContent(html_cdded67750f00565d75e74f6a5f35aad);
+            
+        
+
+        circle_marker_c3d80f8f0762d7c84fac32396effee8f.bindPopup(popup_7f567b04f7933f09a7cc4fd00c9b7f4a)
+        ;
+
+        
+    
+    
+            var circle_marker_a360f4960e8a70b067dbdb5a49fafb89 = L.circleMarker(
+                [35.49334685714286, -89.72870707142856],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_cebd7f26cf15f2a15de4b20335087c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1e05d53f7ffefa6db413570d2feeca2 = $(`<div id="html_f1e05d53f7ffefa6db413570d2feeca2" style="width: 100.0%; height: 100.0%;">Tipton County: 15.35 student-teacher ratio</div>`)[0];
+                popup_cebd7f26cf15f2a15de4b20335087c3c.setContent(html_f1e05d53f7ffefa6db413570d2feeca2);
+            
+        
+
+        circle_marker_a360f4960e8a70b067dbdb5a49fafb89.bindPopup(popup_cebd7f26cf15f2a15de4b20335087c3c)
+        ;
+
+        
+    
+    
+            var circle_marker_dc4765c6021ccfaaa03978a5f71a4a43 = L.circleMarker(
+                [36.394257333333336, -86.15921266666668],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_be7100703c1349a8d07d86f4c2f22c1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68f87c4eaeda824dcb31a3c09242cbb3 = $(`<div id="html_68f87c4eaeda824dcb31a3c09242cbb3" style="width: 100.0%; height: 100.0%;">Trousdale County: 15.21 student-teacher ratio</div>`)[0];
+                popup_be7100703c1349a8d07d86f4c2f22c1b.setContent(html_68f87c4eaeda824dcb31a3c09242cbb3);
+            
+        
+
+        circle_marker_dc4765c6021ccfaaa03978a5f71a4a43.bindPopup(popup_be7100703c1349a8d07d86f4c2f22c1b)
+        ;
+
+        
+    
+    
+            var circle_marker_2b07ea5894a68b0e3fa78ed6ac496e12 = L.circleMarker(
+                [36.13973442857143, -82.41045899999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_4667714675efd61f8027ec0c3144581f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_916654b65c9db04e9ae138fe22ad0cf4 = $(`<div id="html_916654b65c9db04e9ae138fe22ad0cf4" style="width: 100.0%; height: 100.0%;">Unicoi County: 15.74 student-teacher ratio</div>`)[0];
+                popup_4667714675efd61f8027ec0c3144581f.setContent(html_916654b65c9db04e9ae138fe22ad0cf4);
+            
+        
+
+        circle_marker_2b07ea5894a68b0e3fa78ed6ac496e12.bindPopup(popup_4667714675efd61f8027ec0c3144581f)
+        ;
+
+        
+    
+    
+            var circle_marker_1412cb80c6e00ec8335708c4a3682a8b = L.circleMarker(
+                [36.24411033333334, -83.822222],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_19968fce71cc62f62575fab86ca2dbdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd55ddb57723c1de15c457a0e89eec19 = $(`<div id="html_bd55ddb57723c1de15c457a0e89eec19" style="width: 100.0%; height: 100.0%;">Union County: 11.52 student-teacher ratio</div>`)[0];
+                popup_19968fce71cc62f62575fab86ca2dbdd.setContent(html_bd55ddb57723c1de15c457a0e89eec19);
+            
+        
+
+        circle_marker_1412cb80c6e00ec8335708c4a3682a8b.bindPopup(popup_19968fce71cc62f62575fab86ca2dbdd)
+        ;
+
+        
+    
+    
+            var circle_marker_b3509b9c443cae410ac674e5e8a31e5b = L.circleMarker(
+                [35.751594499999996, -85.4674155],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_c1125a590a77a83202c6651650721557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8710f6f2b4bf280f24d4a1e0dc1d548 = $(`<div id="html_c8710f6f2b4bf280f24d4a1e0dc1d548" style="width: 100.0%; height: 100.0%;">Van Buren County: 13.83 student-teacher ratio</div>`)[0];
+                popup_c1125a590a77a83202c6651650721557.setContent(html_c8710f6f2b4bf280f24d4a1e0dc1d548);
+            
+        
+
+        circle_marker_b3509b9c443cae410ac674e5e8a31e5b.bindPopup(popup_c1125a590a77a83202c6651650721557)
+        ;
+
+        
+    
+    
+            var circle_marker_bb094c32d3f8db5652ddb011682eec67 = L.circleMarker(
+                [35.68270066666667, -85.7893145],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_7336a376dda2374b587eb20914de325c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5059b3e0b88ae990d718478bade09b2d = $(`<div id="html_5059b3e0b88ae990d718478bade09b2d" style="width: 100.0%; height: 100.0%;">Warren County: 12.58 student-teacher ratio</div>`)[0];
+                popup_7336a376dda2374b587eb20914de325c.setContent(html_5059b3e0b88ae990d718478bade09b2d);
+            
+        
+
+        circle_marker_bb094c32d3f8db5652ddb011682eec67.bindPopup(popup_7336a376dda2374b587eb20914de325c)
+        ;
+
+        
+    
+    
+            var circle_marker_0a0f754bf995e6745597457f3afd5af9 = L.circleMarker(
+                [36.31821748275863, -82.44040627586206],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_f9da1d6eeb6b05208cc7f6a707059cd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_628c28814931ffd82e5cd1a63a464e84 = $(`<div id="html_628c28814931ffd82e5cd1a63a464e84" style="width: 100.0%; height: 100.0%;">Washington County: 13.22 student-teacher ratio</div>`)[0];
+                popup_f9da1d6eeb6b05208cc7f6a707059cd5.setContent(html_628c28814931ffd82e5cd1a63a464e84);
+            
+        
+
+        circle_marker_0a0f754bf995e6745597457f3afd5af9.bindPopup(popup_f9da1d6eeb6b05208cc7f6a707059cd5)
+        ;
+
+        
+    
+    
+            var circle_marker_0878d4b8dc9f6a56a80aaeace6de7c30 = L.circleMarker(
+                [35.273754555555556, -87.780155],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_49722d28680a3b19d4939d41d2b25827 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_267379ff8ecd1568bb8d11d465c01733 = $(`<div id="html_267379ff8ecd1568bb8d11d465c01733" style="width: 100.0%; height: 100.0%;">Wayne County: 10.46 student-teacher ratio</div>`)[0];
+                popup_49722d28680a3b19d4939d41d2b25827.setContent(html_267379ff8ecd1568bb8d11d465c01733);
+            
+        
+
+        circle_marker_0878d4b8dc9f6a56a80aaeace6de7c30.bindPopup(popup_49722d28680a3b19d4939d41d2b25827)
+        ;
+
+        
+    
+    
+            var circle_marker_34a7a5180aa19e5f00cfbade03bcf9e4 = L.circleMarker(
+                [36.273049, -88.76400727272727],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_9c3183d45b4b3c03ad8cd4c958c1b868 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_989e3a96d2cca0c6d76ca72b46e0f7d4 = $(`<div id="html_989e3a96d2cca0c6d76ca72b46e0f7d4" style="width: 100.0%; height: 100.0%;">Weakley County: 12.10 student-teacher ratio</div>`)[0];
+                popup_9c3183d45b4b3c03ad8cd4c958c1b868.setContent(html_989e3a96d2cca0c6d76ca72b46e0f7d4);
+            
+        
+
+        circle_marker_34a7a5180aa19e5f00cfbade03bcf9e4.bindPopup(popup_9c3183d45b4b3c03ad8cd4c958c1b868)
+        ;
+
+        
+    
+    
+            var circle_marker_f52c2bc4f3b50e7010b69776dba5afe6 = L.circleMarker(
+                [35.940831, -85.482645375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_98d4b0e0104952fd62f454cabe853c4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2578be2459a72aff2abb053f03ac668f = $(`<div id="html_2578be2459a72aff2abb053f03ac668f" style="width: 100.0%; height: 100.0%;">White County: 14.59 student-teacher ratio</div>`)[0];
+                popup_98d4b0e0104952fd62f454cabe853c4f.setContent(html_2578be2459a72aff2abb053f03ac668f);
+            
+        
+
+        circle_marker_f52c2bc4f3b50e7010b69776dba5afe6.bindPopup(popup_98d4b0e0104952fd62f454cabe853c4f)
+        ;
+
+        
+    
+    
+            var circle_marker_81505b2a32c72f0870226510bee99d39 = L.circleMarker(
+                [35.90799162068965, -86.84664691379311],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_b61a018704d8ea0218dec23dc2ec2c22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bbabd91d0690c70033d52d150a71b56 = $(`<div id="html_5bbabd91d0690c70033d52d150a71b56" style="width: 100.0%; height: 100.0%;">Williamson County: 14.48 student-teacher ratio</div>`)[0];
+                popup_b61a018704d8ea0218dec23dc2ec2c22.setContent(html_5bbabd91d0690c70033d52d150a71b56);
+            
+        
+
+        circle_marker_81505b2a32c72f0870226510bee99d39.bindPopup(popup_b61a018704d8ea0218dec23dc2ec2c22)
+        ;
+
+        
+    
+    
+            var circle_marker_620849b781e6d4b3fb29e2a02de0e89f = L.circleMarker(
+                [36.1893839375, -86.37569234375],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9db1825bcdb0d0a6b9325de259c580be);
+        
+    
+        var popup_be9adc7a3a87baf43717aea11e197c8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4912fee7b6a8cc3da220810c2b576b09 = $(`<div id="html_4912fee7b6a8cc3da220810c2b576b09" style="width: 100.0%; height: 100.0%;">Wilson County: 14.92 student-teacher ratio</div>`)[0];
+                popup_be9adc7a3a87baf43717aea11e197c8f.setContent(html_4912fee7b6a8cc3da220810c2b576b09);
+            
+        
+
+        circle_marker_620849b781e6d4b3fb29e2a02de0e89f.bindPopup(popup_be9adc7a3a87baf43717aea11e197c8f)
+        ;
+
+        
+    
+</script>
+</html>
