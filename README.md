@@ -2,6 +2,7 @@
 
 - [Motivation](#motivation)
 - [Technologies Used](#technologies-used)
+- [Data Questions](#data-questions)
 - [Problems/Hurdles Encountered](#problemshurdles-encountered)
 - [Usage](#usage)
 
