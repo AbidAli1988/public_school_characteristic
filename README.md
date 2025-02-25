@@ -5,6 +5,7 @@
 - [Data Questions](#data-questions)
 - [Problems/Hurdles](#problemshurdles)
 - [Usage](#usage)
+- [Power BI Report](#power-bi-report)
 
 This dataset contains detailed records of public school characteristics, including student-to-teacher ratios, school types, enrollment numbers, funding details, and additional educational factors. It focuses on data from public schools across various states and counties in the United States, providing insights into school performance, resource allocation, and demographic distributions.
 
@@ -45,4 +46,11 @@ This dataset can be used for:
 - **Demographic analysis**: Studying the diversity and enrollment patterns of students in public schools.
 - **Policy-making**: Informing decisions on resource allocation and strategies for improving public education.
 - **Trend analysis**: Investigating the impact of school characteristics on student success over time.
+
+
+# Power BI Report
+
+You can access the interactive Power BI report by clicking on the link below:
+
+[Power BI Report on Public School Characteristics](https://app.powerbi.com/groups/me/reports/60d9334b-18c5-4082-98ee-3ed9dae32cf8/fe376b57b28a45135107?experience=power-bi)
 
