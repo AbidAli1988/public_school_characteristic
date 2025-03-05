@@ -52,5 +52,5 @@ This dataset can be used for:
 
 You can access the interactive Power BI report by clicking on the link below:
 
-[Power BI Report on Public School Characteristics](https://app.powerbi.com/groups/me/reports/60d9334b-18c5-4082-98ee-3ed9dae32cf8/fe376b57b28a45135107?experience=power-bi)
+[Power BI Report on Public School Characteristics](https://app.powerbi.com/view?r=eyJrIjoiNzgzZDIzNzgtYmMyNC00MGE3LWIzMTUtNjE3NzRiNDFkMzgyIiwidCI6IjEwMWRhNTg3LTE4NDMtNGY1Mi04YjhhLTE3YjA2OWM2NmQzMyIsImMiOjJ9)
 
